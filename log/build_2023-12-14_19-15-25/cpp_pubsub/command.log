@@ -1,0 +1,2 @@
+Invoking command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/cpp_pubsub -- -j4 -l4
+Invoked command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/cpp_pubsub -- -j4 -l4

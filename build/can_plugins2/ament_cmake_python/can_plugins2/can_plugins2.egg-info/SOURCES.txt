@@ -1,0 +1,8 @@
+setup.py
+can_plugins2/__init__.py
+can_plugins2.egg-info/PKG-INFO
+can_plugins2.egg-info/SOURCES.txt
+can_plugins2.egg-info/dependency_links.txt
+can_plugins2.egg-info/top_level.txt
+can_plugins2/msg/__init__.py
+can_plugins2/msg/_frame.py

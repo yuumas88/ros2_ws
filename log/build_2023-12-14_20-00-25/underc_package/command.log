@@ -1,0 +1,4 @@
+Invoking command in '/home/yumasgmt/ros2_ws/build/underc_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yumasgmt/ros2_ws/tmp_src/underc_package -DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/underc_package
+Invoked command in '/home/yumasgmt/ros2_ws/build/underc_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yumasgmt/ros2_ws/tmp_src/underc_package -DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/underc_package
+Invoking command in '/home/yumasgmt/ros2_ws/build/underc_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/underc_package -- -j4 -l4
+Invoked command in '/home/yumasgmt/ros2_ws/build/underc_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/underc_package -- -j4 -l4

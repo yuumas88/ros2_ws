@@ -1,0 +1,1 @@
+Invoking command in '/home/yumasgmt/ros2_ws/build/can_plugins2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/can_plugins2 -- -j4 -l4

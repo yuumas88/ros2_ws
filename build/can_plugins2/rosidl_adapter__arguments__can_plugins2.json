@@ -1,0 +1,6 @@
+{
+  "package_name": "can_plugins2",
+  "non_idl_tuples": [
+    "/home/yumasgmt/ros2_ws/src/can_plugins2:msg/Frame.msg"
+  ]
+}

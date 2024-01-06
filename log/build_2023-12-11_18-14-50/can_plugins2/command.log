@@ -1,0 +1,6 @@
+Invoking command in '/home/yumasgmt/ros2_ws/build/can_plugins2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yumasgmt/ros2_ws/src/can_plugins2 -DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/can_plugins2
+Invoked command in '/home/yumasgmt/ros2_ws/build/can_plugins2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yumasgmt/ros2_ws/src/can_plugins2 -DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/can_plugins2
+Invoking command in '/home/yumasgmt/ros2_ws/build/can_plugins2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/can_plugins2 -- -j4 -l4
+Invoked command in '/home/yumasgmt/ros2_ws/build/can_plugins2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/can_plugins2 -- -j4 -l4
+Invoking command in '/home/yumasgmt/ros2_ws/build/can_plugins2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yumasgmt/ros2_ws/build/can_plugins2
+Invoked command in '/home/yumasgmt/ros2_ws/build/can_plugins2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yumasgmt/ros2_ws/build/can_plugins2

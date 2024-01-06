@@ -1,0 +1,11 @@
+[0.173s] Invoking command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble LD_LIBRARY_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[0.257s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub_hello_can.cpp.o[0m
+[0.271s] [ 75%] Built target listener
+[0.757s] [01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kcan_utils.hpp: No such file or directory
+[0.757s]    10 | #include [01;31m[K<can_utils.hpp>[m[K
+[0.757s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.757s] compilation terminated.
+[0.762s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/pub_hello_can.cpp.o] Error 1
+[0.762s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[0.763s] gmake: *** [Makefile:146: all] Error 2
+[0.766s] Invoked command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub' returned '2': AMENT_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble LD_LIBRARY_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/cpp_pubsub -- -j4 -l4

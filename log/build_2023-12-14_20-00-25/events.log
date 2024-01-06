@@ -1,0 +1,426 @@
+[0.000000] (-) TimerEvent: {}
+[0.000580] (can_plugins2) JobQueued: {'identifier': 'can_plugins2', 'dependencies': OrderedDict()}
+[0.000710] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000825] (underc_package) JobQueued: {'identifier': 'underc_package', 'dependencies': OrderedDict()}
+[0.001114] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('can_plugins2', '/home/yumasgmt/ros2_ws/install/can_plugins2')])}
+[0.001213] (can_plugins2) JobStarted: {'identifier': 'can_plugins2'}
+[0.084002] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.098402] (-) TimerEvent: {}
+[0.199351] (-) TimerEvent: {}
+[0.281578] (underc_package) JobStarted: {'identifier': 'underc_package'}
+[0.299533] (-) TimerEvent: {}
+[0.401574] (-) TimerEvent: {}
+[0.445286] (can_plugins2) JobProgress: {'identifier': 'can_plugins2', 'progress': 'cmake'}
+[0.450760] (can_plugins2) JobProgress: {'identifier': 'can_plugins2', 'progress': 'build'}
+[0.453161] (can_plugins2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yumasgmt/ros2_ws/build/can_plugins2', '--', '-j4', '-l4'], 'cwd': '/home/yumasgmt/ros2_ws/build/can_plugins2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yumasgmt'), ('OLDPWD', '/home/yumasgmt/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-c25924d4-be1b-499a-b068-7efb720a268f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/12_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/can_plugins2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.461858] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.465699] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.472327] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yumasgmt/ros2_ws/build/my_package', '--', '-j4', '-l4'], 'cwd': '/home/yumasgmt/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yumasgmt'), ('OLDPWD', '/home/yumasgmt/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-c25924d4-be1b-499a-b068-7efb720a268f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/12_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/my_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.476817] (underc_package) JobProgress: {'identifier': 'underc_package', 'progress': 'cmake'}
+[0.477381] (underc_package) Command: {'cmd': ['/usr/bin/cmake', '/home/yumasgmt/ros2_ws/tmp_src/underc_package', '-DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/underc_package'], 'cwd': '/home/yumasgmt/ros2_ws/build/underc_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yumasgmt'), ('OLDPWD', '/home/yumasgmt/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-c25924d4-be1b-499a-b068-7efb720a268f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/12_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/underc_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.501767] (-) TimerEvent: {}
+[0.536431] (my_package) CommandEnded: {'returncode': 0}
+[0.572491] (can_plugins2) StdoutLine: {'line': b'[  3%] Built target can_plugins2__cpp\n'}
+[0.578391] (can_plugins2) StdoutLine: {'line': b'[ 12%] Built target can_plugins2__rosidl_generator_c\n'}
+[0.601895] (-) TimerEvent: {}
+[0.607277] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[0.612320] (can_plugins2) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_can_plugins2\n'}
+[0.623657] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yumasgmt/ros2_ws/build/my_package'], 'cwd': '/home/yumasgmt/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yumasgmt'), ('OLDPWD', '/home/yumasgmt/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-c25924d4-be1b-499a-b068-7efb720a268f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/12_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/my_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.632385] (can_plugins2) StdoutLine: {'line': b'[ 21%] Built target can_plugins2__rosidl_typesupport_cpp\n'}
+[0.644934] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.645309] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[0.645490] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[0.645661] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[0.645764] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[0.645837] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[0.645904] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[0.645985] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[0.646244] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[0.646386] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[0.646501] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[0.646638] (my_package) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/my_package/share/my_package/package.dsv\n'}
+[0.647119] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[0.647702] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[0.648119] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[0.648710] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/my_package/share/my_package/package.xml\n'}
+[0.650627] (can_plugins2) StdoutLine: {'line': b'[ 30%] Built target can_plugins2__rosidl_typesupport_introspection_cpp\n'}
+[0.667497] (my_package) CommandEnded: {'returncode': 0}
+[0.668091] (can_plugins2) StdoutLine: {'line': b'[ 39%] Built target can_plugins2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.674519] (can_plugins2) StdoutLine: {'line': b'[ 48%] Built target can_plugins2__rosidl_typesupport_fastrtps_c\n'}
+[0.702119] (-) TimerEvent: {}
+[0.705913] (can_plugins2) StdoutLine: {'line': b'[ 57%] Built target can_plugins2__rosidl_typesupport_c\n'}
+[0.714869] (can_plugins2) StdoutLine: {'line': b'[ 66%] Built target can_plugins2__rosidl_typesupport_introspection_c\n'}
+[0.732266] (can_plugins2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slcan_bridge\x1b[0m\n'}
+[0.756796] (can_plugins2) StdoutLine: {'line': b'[ 66%] Built target can_plugins2\n'}
+[0.793027] (can_plugins2) StdoutLine: {'line': b'[ 69%] Built target can_plugins2__py\n'}
+[0.802918] (can_plugins2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/slcan_bridge.dir/src/slcan_bridge.cpp.o\x1b[0m\n'}
+[0.803154] (-) TimerEvent: {}
+[0.842444] (can_plugins2) StdoutLine: {'line': b'[ 78%] Built target can_plugins2__rosidl_generator_py\n'}
+[0.903788] (-) TimerEvent: {}
+[0.974715] (can_plugins2) StdoutLine: {'line': b'[ 84%] Built target can_plugins2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.003929] (-) TimerEvent: {}
+[1.029265] (can_plugins2) StdoutLine: {'line': b'[ 90%] Built target can_plugins2__rosidl_typesupport_introspection_c__pyext\n'}
+[1.055102] (can_plugins2) StdoutLine: {'line': b'[ 96%] Built target can_plugins2__rosidl_typesupport_c__pyext\n'}
+[1.108344] (-) TimerEvent: {}
+[1.209389] (-) TimerEvent: {}
+[1.226853] (underc_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.309910] (-) TimerEvent: {}
+[1.376777] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.410313] (-) TimerEvent: {}
+[1.511357] (-) TimerEvent: {}
+[1.617406] (-) TimerEvent: {}
+[1.694383] (can_plugins2) StdoutLine: {'line': b'running egg_info\n'}
+[1.698539] (can_plugins2) StdoutLine: {'line': b'writing can_plugins2.egg-info/PKG-INFO\n'}
+[1.700971] (can_plugins2) StdoutLine: {'line': b'writing dependency_links to can_plugins2.egg-info/dependency_links.txt\n'}
+[1.704915] (can_plugins2) StdoutLine: {'line': b'writing top-level names to can_plugins2.egg-info/top_level.txt\n'}
+[1.717540] (-) TimerEvent: {}
+[1.719656] (can_plugins2) StdoutLine: {'line': b"reading manifest file 'can_plugins2.egg-info/SOURCES.txt'\n"}
+[1.723646] (can_plugins2) StdoutLine: {'line': b"writing manifest file 'can_plugins2.egg-info/SOURCES.txt'\n"}
+[1.816261] (can_plugins2) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_can_plugins2_egg\n'}
+[1.817716] (-) TimerEvent: {}
+[1.918250] (-) TimerEvent: {}
+[2.018789] (-) TimerEvent: {}
+[2.119440] (-) TimerEvent: {}
+[2.221710] (-) TimerEvent: {}
+[2.322194] (-) TimerEvent: {}
+[2.422850] (-) TimerEvent: {}
+[2.495062] (underc_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.523021] (-) TimerEvent: {}
+[2.623516] (-) TimerEvent: {}
+[2.724047] (-) TimerEvent: {}
+[2.824606] (-) TimerEvent: {}
+[2.925089] (-) TimerEvent: {}
+[3.026032] (-) TimerEvent: {}
+[3.117591] (underc_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.126225] (-) TimerEvent: {}
+[3.226719] (-) TimerEvent: {}
+[3.327366] (-) TimerEvent: {}
+[3.428700] (-) TimerEvent: {}
+[3.518377] (underc_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.528536] (-) TimerEvent: {}
+[3.536026] (underc_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.546589] (underc_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.549335] (underc_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.593062] (underc_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.628713] (-) TimerEvent: {}
+[3.729166] (-) TimerEvent: {}
+[3.829673] (-) TimerEvent: {}
+[3.930576] (underc_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.930927] (-) TimerEvent: {}
+[3.941839] (underc_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.942432] (underc_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.943375] (underc_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.963460] (underc_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.031092] (-) TimerEvent: {}
+[4.133575] (-) TimerEvent: {}
+[4.234087] (-) TimerEvent: {}
+[4.334563] (-) TimerEvent: {}
+[4.429395] (underc_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[4.434717] (-) TimerEvent: {}
+[4.535167] (-) TimerEvent: {}
+[4.635614] (-) TimerEvent: {}
+[4.687229] (underc_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.735796] (-) TimerEvent: {}
+[4.836230] (-) TimerEvent: {}
+[4.918756] (underc_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.920186] (underc_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yumasgmt/ros2_ws/tmp_src/underc_package/include>\n'}
+[4.921312] (underc_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.928706] (underc_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.933565] (underc_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.934567] (underc_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.936394] (-) TimerEvent: {}
+[4.939514] (underc_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.948200] (underc_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.984738] (underc_package) StdoutLine: {'line': b'-- Generating done\n'}
+[4.989288] (underc_package) StdoutLine: {'line': b'-- Build files have been written to: /home/yumasgmt/ros2_ws/build/underc_package\n'}
+[5.002780] (underc_package) CommandEnded: {'returncode': 0}
+[5.003634] (underc_package) JobProgress: {'identifier': 'underc_package', 'progress': 'build'}
+[5.003711] (underc_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yumasgmt/ros2_ws/build/underc_package', '--', '-j4', '-l4'], 'cwd': '/home/yumasgmt/ros2_ws/build/underc_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yumasgmt'), ('OLDPWD', '/home/yumasgmt/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-c25924d4-be1b-499a-b068-7efb720a268f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/12_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/underc_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[5.036586] (-) TimerEvent: {}
+[5.094917] (underc_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/underc_node.dir/src/underc_node.cpp.o\x1b[0m\n'}
+[5.132089] (underc_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable underc_node\x1b[0m\n'}
+[5.136725] (-) TimerEvent: {}
+[5.237285] (-) TimerEvent: {}
+[5.337704] (-) TimerEvent: {}
+[5.438249] (-) TimerEvent: {}
+[5.484222] (underc_package) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[5.484540] (underc_package) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[5.491588] (underc_package) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[5.498658] (underc_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/underc_node.dir/build.make:97: underc_node] Error 1\n'}
+[5.499022] (underc_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/underc_node.dir/all] Error 2\n'}
+[5.499171] (underc_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.499305] (underc_package) CommandEnded: {'returncode': 2}
+[5.538384] (-) TimerEvent: {}
+[5.638836] (-) TimerEvent: {}
+[5.735366] (underc_package) JobEnded: {'identifier': 'underc_package', 'rc': 2}
+[5.739146] (-) TimerEvent: {}
+[5.839753] (-) TimerEvent: {}
+[5.940238] (-) TimerEvent: {}
+[6.040849] (-) TimerEvent: {}
+[6.141449] (-) TimerEvent: {}
+[6.241997] (-) TimerEvent: {}
+[6.342505] (-) TimerEvent: {}
+[6.443554] (-) TimerEvent: {}
+[6.544063] (-) TimerEvent: {}
+[6.645018] (-) TimerEvent: {}
+[6.745900] (-) TimerEvent: {}
+[6.846426] (-) TimerEvent: {}
+[6.946980] (-) TimerEvent: {}
+[7.047515] (-) TimerEvent: {}
+[7.148516] (-) TimerEvent: {}
+[7.249430] (-) TimerEvent: {}
+[7.349983] (-) TimerEvent: {}
+[7.450980] (-) TimerEvent: {}
+[7.551879] (-) TimerEvent: {}
+[7.652450] (-) TimerEvent: {}
+[7.752981] (-) TimerEvent: {}
+[7.853501] (-) TimerEvent: {}
+[7.954046] (-) TimerEvent: {}
+[8.054507] (-) TimerEvent: {}
+[8.155033] (-) TimerEvent: {}
+[8.255512] (-) TimerEvent: {}
+[8.356050] (-) TimerEvent: {}
+[8.456590] (-) TimerEvent: {}
+[8.557145] (-) TimerEvent: {}
+[8.657670] (-) TimerEvent: {}
+[8.758283] (-) TimerEvent: {}
+[8.858754] (-) TimerEvent: {}
+[8.959197] (-) TimerEvent: {}
+[9.059674] (-) TimerEvent: {}
+[9.160211] (-) TimerEvent: {}
+[9.260692] (-) TimerEvent: {}
+[9.361525] (-) TimerEvent: {}
+[9.462284] (-) TimerEvent: {}
+[9.563004] (-) TimerEvent: {}
+[9.663599] (-) TimerEvent: {}
+[9.764110] (-) TimerEvent: {}
+[9.864611] (-) TimerEvent: {}
+[9.965078] (-) TimerEvent: {}
+[10.065559] (-) TimerEvent: {}
+[10.166152] (-) TimerEvent: {}
+[10.266951] (-) TimerEvent: {}
+[10.367467] (-) TimerEvent: {}
+[10.467967] (-) TimerEvent: {}
+[10.568515] (-) TimerEvent: {}
+[10.669000] (-) TimerEvent: {}
+[10.769568] (-) TimerEvent: {}
+[10.870112] (-) TimerEvent: {}
+[10.970706] (-) TimerEvent: {}
+[11.071215] (-) TimerEvent: {}
+[11.171816] (-) TimerEvent: {}
+[11.272434] (-) TimerEvent: {}
+[11.372931] (-) TimerEvent: {}
+[11.473396] (-) TimerEvent: {}
+[11.573886] (-) TimerEvent: {}
+[11.674465] (-) TimerEvent: {}
+[11.775002] (-) TimerEvent: {}
+[11.875466] (-) TimerEvent: {}
+[11.976041] (-) TimerEvent: {}
+[12.077117] (-) TimerEvent: {}
+[12.177650] (-) TimerEvent: {}
+[12.278260] (-) TimerEvent: {}
+[12.378733] (-) TimerEvent: {}
+[12.479198] (-) TimerEvent: {}
+[12.579785] (-) TimerEvent: {}
+[12.680344] (-) TimerEvent: {}
+[12.780842] (-) TimerEvent: {}
+[12.881322] (-) TimerEvent: {}
+[12.981865] (-) TimerEvent: {}
+[13.082385] (-) TimerEvent: {}
+[13.183073] (-) TimerEvent: {}
+[13.283735] (-) TimerEvent: {}
+[13.384253] (-) TimerEvent: {}
+[13.484731] (-) TimerEvent: {}
+[13.585337] (-) TimerEvent: {}
+[13.685959] (-) TimerEvent: {}
+[13.786578] (-) TimerEvent: {}
+[13.887045] (-) TimerEvent: {}
+[13.987574] (-) TimerEvent: {}
+[14.088065] (-) TimerEvent: {}
+[14.188590] (-) TimerEvent: {}
+[14.289015] (-) TimerEvent: {}
+[14.389483] (-) TimerEvent: {}
+[14.490017] (-) TimerEvent: {}
+[14.590539] (-) TimerEvent: {}
+[14.691011] (-) TimerEvent: {}
+[14.791501] (-) TimerEvent: {}
+[14.891992] (-) TimerEvent: {}
+[14.992553] (-) TimerEvent: {}
+[15.093172] (-) TimerEvent: {}
+[15.193674] (-) TimerEvent: {}
+[15.294151] (-) TimerEvent: {}
+[15.394733] (-) TimerEvent: {}
+[15.495334] (-) TimerEvent: {}
+[15.595881] (-) TimerEvent: {}
+[15.696395] (-) TimerEvent: {}
+[15.796862] (-) TimerEvent: {}
+[15.897336] (-) TimerEvent: {}
+[15.997841] (-) TimerEvent: {}
+[16.098335] (-) TimerEvent: {}
+[16.198772] (-) TimerEvent: {}
+[16.299245] (-) TimerEvent: {}
+[16.399707] (-) TimerEvent: {}
+[16.500165] (-) TimerEvent: {}
+[16.600988] (-) TimerEvent: {}
+[16.702330] (-) TimerEvent: {}
+[16.803178] (-) TimerEvent: {}
+[16.904314] (-) TimerEvent: {}
+[17.004880] (-) TimerEvent: {}
+[17.105557] (-) TimerEvent: {}
+[17.206154] (-) TimerEvent: {}
+[17.306646] (-) TimerEvent: {}
+[17.407167] (-) TimerEvent: {}
+[17.508109] (-) TimerEvent: {}
+[17.608858] (-) TimerEvent: {}
+[17.709330] (-) TimerEvent: {}
+[17.809761] (-) TimerEvent: {}
+[17.910695] (-) TimerEvent: {}
+[18.011513] (-) TimerEvent: {}
+[18.112225] (-) TimerEvent: {}
+[18.212866] (-) TimerEvent: {}
+[18.313810] (-) TimerEvent: {}
+[18.414584] (-) TimerEvent: {}
+[18.515309] (-) TimerEvent: {}
+[18.615983] (-) TimerEvent: {}
+[18.716558] (-) TimerEvent: {}
+[18.817419] (-) TimerEvent: {}
+[18.918040] (-) TimerEvent: {}
+[19.018679] (-) TimerEvent: {}
+[19.119363] (-) TimerEvent: {}
+[19.219982] (-) TimerEvent: {}
+[19.320466] (-) TimerEvent: {}
+[19.421124] (-) TimerEvent: {}
+[19.521949] (-) TimerEvent: {}
+[19.622503] (-) TimerEvent: {}
+[19.722987] (-) TimerEvent: {}
+[19.823569] (-) TimerEvent: {}
+[19.924122] (-) TimerEvent: {}
+[20.024743] (-) TimerEvent: {}
+[20.125292] (-) TimerEvent: {}
+[20.226005] (-) TimerEvent: {}
+[20.326544] (-) TimerEvent: {}
+[20.427396] (-) TimerEvent: {}
+[20.527916] (-) TimerEvent: {}
+[20.628437] (-) TimerEvent: {}
+[20.728926] (-) TimerEvent: {}
+[20.829449] (-) TimerEvent: {}
+[20.929986] (-) TimerEvent: {}
+[21.030495] (-) TimerEvent: {}
+[21.130923] (-) TimerEvent: {}
+[21.231400] (-) TimerEvent: {}
+[21.331872] (-) TimerEvent: {}
+[21.432324] (-) TimerEvent: {}
+[21.532854] (-) TimerEvent: {}
+[21.633415] (-) TimerEvent: {}
+[21.733935] (-) TimerEvent: {}
+[21.834413] (-) TimerEvent: {}
+[21.934926] (-) TimerEvent: {}
+[22.035429] (-) TimerEvent: {}
+[22.135938] (-) TimerEvent: {}
+[22.236422] (-) TimerEvent: {}
+[22.336894] (-) TimerEvent: {}
+[22.437383] (-) TimerEvent: {}
+[22.537841] (-) TimerEvent: {}
+[22.638405] (-) TimerEvent: {}
+[22.738931] (-) TimerEvent: {}
+[22.839380] (-) TimerEvent: {}
+[22.939782] (-) TimerEvent: {}
+[23.040219] (-) TimerEvent: {}
+[23.140738] (-) TimerEvent: {}
+[23.241293] (-) TimerEvent: {}
+[23.341737] (-) TimerEvent: {}
+[23.442196] (-) TimerEvent: {}
+[23.542753] (-) TimerEvent: {}
+[23.643306] (-) TimerEvent: {}
+[23.743937] (-) TimerEvent: {}
+[23.844539] (-) TimerEvent: {}
+[23.945055] (-) TimerEvent: {}
+[24.045555] (-) TimerEvent: {}
+[24.146084] (-) TimerEvent: {}
+[24.246612] (-) TimerEvent: {}
+[24.347137] (-) TimerEvent: {}
+[24.447684] (-) TimerEvent: {}
+[24.548230] (-) TimerEvent: {}
+[24.648721] (-) TimerEvent: {}
+[24.749262] (-) TimerEvent: {}
+[24.849766] (-) TimerEvent: {}
+[24.950318] (-) TimerEvent: {}
+[25.050857] (-) TimerEvent: {}
+[25.151352] (-) TimerEvent: {}
+[25.251827] (-) TimerEvent: {}
+[25.352392] (-) TimerEvent: {}
+[25.452883] (-) TimerEvent: {}
+[25.553384] (-) TimerEvent: {}
+[25.653860] (-) TimerEvent: {}
+[25.754356] (-) TimerEvent: {}
+[25.854849] (-) TimerEvent: {}
+[25.955362] (-) TimerEvent: {}
+[26.055864] (-) TimerEvent: {}
+[26.156363] (-) TimerEvent: {}
+[26.256859] (-) TimerEvent: {}
+[26.357386] (-) TimerEvent: {}
+[26.457857] (-) TimerEvent: {}
+[26.558284] (-) TimerEvent: {}
+[26.658743] (-) TimerEvent: {}
+[26.759285] (-) TimerEvent: {}
+[26.859758] (-) TimerEvent: {}
+[26.960244] (-) TimerEvent: {}
+[27.060751] (-) TimerEvent: {}
+[27.161235] (-) TimerEvent: {}
+[27.261745] (-) TimerEvent: {}
+[27.362202] (-) TimerEvent: {}
+[27.462684] (-) TimerEvent: {}
+[27.563184] (-) TimerEvent: {}
+[27.663680] (-) TimerEvent: {}
+[27.764173] (-) TimerEvent: {}
+[27.864759] (-) TimerEvent: {}
+[27.965403] (-) TimerEvent: {}
+[28.066021] (-) TimerEvent: {}
+[28.166671] (-) TimerEvent: {}
+[28.267219] (-) TimerEvent: {}
+[28.367718] (-) TimerEvent: {}
+[28.468221] (-) TimerEvent: {}
+[28.568847] (-) TimerEvent: {}
+[28.669397] (-) TimerEvent: {}
+[28.769894] (-) TimerEvent: {}
+[28.870475] (-) TimerEvent: {}
+[28.971065] (-) TimerEvent: {}
+[29.071675] (-) TimerEvent: {}
+[29.172188] (-) TimerEvent: {}
+[29.272796] (-) TimerEvent: {}
+[29.373373] (-) TimerEvent: {}
+[29.473888] (-) TimerEvent: {}
+[29.574397] (-) TimerEvent: {}
+[29.674859] (-) TimerEvent: {}
+[29.775351] (-) TimerEvent: {}
+[29.875857] (-) TimerEvent: {}
+[29.976351] (-) TimerEvent: {}
+[30.076819] (-) TimerEvent: {}
+[30.177271] (-) TimerEvent: {}
+[30.277740] (-) TimerEvent: {}
+[30.378265] (-) TimerEvent: {}
+[30.478770] (-) TimerEvent: {}
+[30.579267] (-) TimerEvent: {}
+[30.679709] (-) TimerEvent: {}
+[30.780189] (-) TimerEvent: {}
+[30.880647] (-) TimerEvent: {}
+[30.981109] (-) TimerEvent: {}
+[31.081610] (-) TimerEvent: {}
+[31.182227] (-) TimerEvent: {}
+[31.196221] (can_plugins2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libslcan_bridge.so\x1b[0m\n'}
+[31.282379] (-) TimerEvent: {}
+[31.382922] (-) TimerEvent: {}
+[31.483509] (-) TimerEvent: {}
+[31.584242] (-) TimerEvent: {}
+[31.684904] (-) TimerEvent: {}
+[31.785570] (-) TimerEvent: {}
+[31.886274] (-) TimerEvent: {}
+[31.986917] (-) TimerEvent: {}
+[32.087493] (-) TimerEvent: {}
+[32.188015] (-) TimerEvent: {}
+[32.288496] (-) TimerEvent: {}
+[32.389082] (-) TimerEvent: {}
+[32.411136] (can_plugins2) StdoutLine: {'line': b'[100%] Built target slcan_bridge\n'}
+[32.425186] (can_plugins2) JobEnded: {'identifier': 'can_plugins2', 'rc': 'SIGINT'}
+[32.436581] (cpp_pubsub) JobSkipped: {'identifier': 'cpp_pubsub'}
+[32.436810] (-) EventReactorShutdown: {}

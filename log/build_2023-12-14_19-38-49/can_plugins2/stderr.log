@@ -1,0 +1,8 @@
+[01m[K/home/yumasgmt/ros2_ws/src/can_plugins2/src/slcan_bridge.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kslcan_bridge.hpp: No such file or directory
+    1 | #include [01;31m[K"slcan_bridge.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/slcan_bridge.dir/build.make:76: CMakeFiles/slcan_bridge.dir/src/slcan_bridge.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/slcan_bridge.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

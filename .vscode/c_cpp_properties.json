@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}",
+                "/opt/ros/humble/include/*/",
+                "${workspaceFolder}/install/can_plugins2/include/can_plugins2/",
+                "${workspaceFolder}/install/can_plugins2/include/",
+                "${workspaceFolder}/src/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,288 @@
+[0.000000] (-) TimerEvent: {}
+[0.001410] (-) JobUnselected: {'identifier': 'can_plugins2'}
+[0.001894] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002115] (-) JobUnselected: {'identifier': 'underc_package'}
+[0.002217] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('can_plugins2', '/home/yumasgmt/ros2_ws/install/can_plugins2')])}
+[0.002323] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.097850] (-) TimerEvent: {}
+[0.199729] (-) TimerEvent: {}
+[0.265847] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.267739] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.269764] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yumasgmt/ros2_ws/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/yumasgmt/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yumasgmt'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-9e34ac9c-dd09-49d0-8c9d-ef4f5f52fce4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/8784_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/cpp_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble')]), 'shell': False}
+[0.299907] (-) TimerEvent: {}
+[0.344188] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.370786] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.378596] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/pub_hello_can.cpp.o\x1b[0m\n'}
+[0.400047] (-) TimerEvent: {}
+[0.500540] (-) TimerEvent: {}
+[0.601951] (-) TimerEvent: {}
+[0.702794] (-) TimerEvent: {}
+[0.803319] (-) TimerEvent: {}
+[0.903898] (-) TimerEvent: {}
+[1.004486] (-) TimerEvent: {}
+[1.105017] (-) TimerEvent: {}
+[1.205646] (-) TimerEvent: {}
+[1.306221] (-) TimerEvent: {}
+[1.406860] (-) TimerEvent: {}
+[1.507532] (-) TimerEvent: {}
+[1.608183] (-) TimerEvent: {}
+[1.708898] (-) TimerEvent: {}
+[1.809673] (-) TimerEvent: {}
+[1.910335] (-) TimerEvent: {}
+[2.011015] (-) TimerEvent: {}
+[2.111678] (-) TimerEvent: {}
+[2.212412] (-) TimerEvent: {}
+[2.313380] (-) TimerEvent: {}
+[2.414300] (-) TimerEvent: {}
+[2.515134] (-) TimerEvent: {}
+[2.615995] (-) TimerEvent: {}
+[2.717016] (-) TimerEvent: {}
+[2.817632] (-) TimerEvent: {}
+[2.918169] (-) TimerEvent: {}
+[3.018713] (-) TimerEvent: {}
+[3.119355] (-) TimerEvent: {}
+[3.220096] (-) TimerEvent: {}
+[3.320710] (-) TimerEvent: {}
+[3.421361] (-) TimerEvent: {}
+[3.522003] (-) TimerEvent: {}
+[3.622549] (-) TimerEvent: {}
+[3.723063] (-) TimerEvent: {}
+[3.823663] (-) TimerEvent: {}
+[3.924153] (-) TimerEvent: {}
+[4.024701] (-) TimerEvent: {}
+[4.125276] (-) TimerEvent: {}
+[4.225944] (-) TimerEvent: {}
+[4.326591] (-) TimerEvent: {}
+[4.427238] (-) TimerEvent: {}
+[4.527780] (-) TimerEvent: {}
+[4.628304] (-) TimerEvent: {}
+[4.728804] (-) TimerEvent: {}
+[4.829453] (-) TimerEvent: {}
+[4.930243] (-) TimerEvent: {}
+[5.031038] (-) TimerEvent: {}
+[5.131677] (-) TimerEvent: {}
+[5.232251] (-) TimerEvent: {}
+[5.332910] (-) TimerEvent: {}
+[5.433574] (-) TimerEvent: {}
+[5.534137] (-) TimerEvent: {}
+[5.634741] (-) TimerEvent: {}
+[5.735278] (-) TimerEvent: {}
+[5.835787] (-) TimerEvent: {}
+[5.911515] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[5.911830] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[5.911945] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[5.912043] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.912135] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.912235] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.912327] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.912467] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.912561] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.912653] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.912748] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.913306] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:6\x1b[m\x1b[K:\n'}
+[5.913565] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.913700] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:86:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.913803] (cpp_pubsub) StderrLine: {'line': b'   86 |       RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Published Shirasu Mode: \'%s\'"\x1b[m\x1b[K, mode_msg.data[0]);\n'}
+[5.913897] (cpp_pubsub) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.913988] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:86:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[5.914079] (cpp_pubsub) StderrLine: {'line': b'   86 |       RCLCPP_INFO(this->get_logger(), "Published Shirasu Mode: \'\x1b[01;36m\x1b[K%s\x1b[m\x1b[K\'", mode_msg.data[0]);\n'}
+[5.914169] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[5.914408] (cpp_pubsub) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[5.914557] (cpp_pubsub) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[5.914653] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[5.914745] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[5.914836] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[5.914924] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[5.915016] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.915107] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.915213] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.915302] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.915447] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.915545] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.915637] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.915726] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.915816] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:6\x1b[m\x1b[K:\n'}
+[5.915945] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_target_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.916044] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:94:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kcan_plugins2::msg::Frame_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<unsigned char, 8>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.916168] (cpp_pubsub) StderrLine: {'line': b'   94 |     RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"Published Shirasu Target: \'%s\'"\x1b[m\x1b[K, \x1b[32m\x1b[Ktarget_msg.data\x1b[m\x1b[K);\n'}
+[5.916262] (cpp_pubsub) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.916383] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[5.916496] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                 \x1b[32m\x1b[Kcan_plugins2::msg::Frame_<std::allocator<void> >::_data_type {aka std::array<unsigned char, 8>}\x1b[m\x1b[K\n'}
+[5.916592] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:94:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[5.916686] (cpp_pubsub) StderrLine: {'line': b'   94 |     RCLCPP_INFO(this->get_logger(),"Published Shirasu Target: \'\x1b[01;36m\x1b[K%s\x1b[m\x1b[K\'", target_msg.data);\n'}
+[5.916776] (cpp_pubsub) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[5.916865] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[5.916954] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[5.935972] (-) TimerEvent: {}
+[6.036978] (-) TimerEvent: {}
+[6.137563] (-) TimerEvent: {}
+[6.238068] (-) TimerEvent: {}
+[6.338617] (-) TimerEvent: {}
+[6.439151] (-) TimerEvent: {}
+[6.539713] (-) TimerEvent: {}
+[6.640227] (-) TimerEvent: {}
+[6.740785] (-) TimerEvent: {}
+[6.841344] (-) TimerEvent: {}
+[6.941875] (-) TimerEvent: {}
+[7.042389] (-) TimerEvent: {}
+[7.142891] (-) TimerEvent: {}
+[7.243417] (-) TimerEvent: {}
+[7.343955] (-) TimerEvent: {}
+[7.444505] (-) TimerEvent: {}
+[7.545056] (-) TimerEvent: {}
+[7.645767] (-) TimerEvent: {}
+[7.746317] (-) TimerEvent: {}
+[7.846845] (-) TimerEvent: {}
+[7.947567] (-) TimerEvent: {}
+[8.048142] (-) TimerEvent: {}
+[8.148665] (-) TimerEvent: {}
+[8.249138] (-) TimerEvent: {}
+[8.349655] (-) TimerEvent: {}
+[8.450245] (-) TimerEvent: {}
+[8.550891] (-) TimerEvent: {}
+[8.651457] (-) TimerEvent: {}
+[8.752074] (-) TimerEvent: {}
+[8.852671] (-) TimerEvent: {}
+[8.953251] (-) TimerEvent: {}
+[9.053979] (-) TimerEvent: {}
+[9.154777] (-) TimerEvent: {}
+[9.255437] (-) TimerEvent: {}
+[9.356147] (-) TimerEvent: {}
+[9.456886] (-) TimerEvent: {}
+[9.557709] (-) TimerEvent: {}
+[9.658227] (-) TimerEvent: {}
+[9.758728] (-) TimerEvent: {}
+[9.859245] (-) TimerEvent: {}
+[9.959742] (-) TimerEvent: {}
+[10.060264] (-) TimerEvent: {}
+[10.160794] (-) TimerEvent: {}
+[10.261516] (-) TimerEvent: {}
+[10.362184] (-) TimerEvent: {}
+[10.462861] (-) TimerEvent: {}
+[10.563521] (-) TimerEvent: {}
+[10.664013] (-) TimerEvent: {}
+[10.764602] (-) TimerEvent: {}
+[10.865159] (-) TimerEvent: {}
+[10.965869] (-) TimerEvent: {}
+[11.066507] (-) TimerEvent: {}
+[11.167054] (-) TimerEvent: {}
+[11.267544] (-) TimerEvent: {}
+[11.368106] (-) TimerEvent: {}
+[11.468849] (-) TimerEvent: {}
+[11.569514] (-) TimerEvent: {}
+[11.669974] (-) TimerEvent: {}
+[11.770479] (-) TimerEvent: {}
+[11.871023] (-) TimerEvent: {}
+[11.971479] (-) TimerEvent: {}
+[12.071983] (-) TimerEvent: {}
+[12.172625] (-) TimerEvent: {}
+[12.273251] (-) TimerEvent: {}
+[12.373748] (-) TimerEvent: {}
+[12.474308] (-) TimerEvent: {}
+[12.575048] (-) TimerEvent: {}
+[12.676323] (-) TimerEvent: {}
+[12.776910] (-) TimerEvent: {}
+[12.877423] (-) TimerEvent: {}
+[12.977924] (-) TimerEvent: {}
+[13.078517] (-) TimerEvent: {}
+[13.179143] (-) TimerEvent: {}
+[13.279745] (-) TimerEvent: {}
+[13.380413] (-) TimerEvent: {}
+[13.480970] (-) TimerEvent: {}
+[13.581421] (-) TimerEvent: {}
+[13.681870] (-) TimerEvent: {}
+[13.782391] (-) TimerEvent: {}
+[13.882944] (-) TimerEvent: {}
+[13.983451] (-) TimerEvent: {}
+[14.084069] (-) TimerEvent: {}
+[14.184741] (-) TimerEvent: {}
+[14.285308] (-) TimerEvent: {}
+[14.386025] (-) TimerEvent: {}
+[14.486742] (-) TimerEvent: {}
+[14.587451] (-) TimerEvent: {}
+[14.688104] (-) TimerEvent: {}
+[14.788726] (-) TimerEvent: {}
+[14.889213] (-) TimerEvent: {}
+[14.989733] (-) TimerEvent: {}
+[15.090273] (-) TimerEvent: {}
+[15.190842] (-) TimerEvent: {}
+[15.291495] (-) TimerEvent: {}
+[15.392058] (-) TimerEvent: {}
+[15.492645] (-) TimerEvent: {}
+[15.593250] (-) TimerEvent: {}
+[15.693767] (-) TimerEvent: {}
+[15.794356] (-) TimerEvent: {}
+[15.894897] (-) TimerEvent: {}
+[15.995466] (-) TimerEvent: {}
+[16.096081] (-) TimerEvent: {}
+[16.196622] (-) TimerEvent: {}
+[16.297176] (-) TimerEvent: {}
+[16.397721] (-) TimerEvent: {}
+[16.498276] (-) TimerEvent: {}
+[16.598816] (-) TimerEvent: {}
+[16.699338] (-) TimerEvent: {}
+[16.799869] (-) TimerEvent: {}
+[16.900503] (-) TimerEvent: {}
+[17.001200] (-) TimerEvent: {}
+[17.101990] (-) TimerEvent: {}
+[17.202554] (-) TimerEvent: {}
+[17.303112] (-) TimerEvent: {}
+[17.403774] (-) TimerEvent: {}
+[17.504378] (-) TimerEvent: {}
+[17.604986] (-) TimerEvent: {}
+[17.705491] (-) TimerEvent: {}
+[17.806011] (-) TimerEvent: {}
+[17.906511] (-) TimerEvent: {}
+[18.007052] (-) TimerEvent: {}
+[18.107730] (-) TimerEvent: {}
+[18.208707] (-) TimerEvent: {}
+[18.309505] (-) TimerEvent: {}
+[18.356773] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[18.409677] (-) TimerEvent: {}
+[18.516420] (-) TimerEvent: {}
+[18.617067] (-) TimerEvent: {}
+[18.717778] (-) TimerEvent: {}
+[18.818553] (-) TimerEvent: {}
+[18.919255] (-) TimerEvent: {}
+[19.020022] (-) TimerEvent: {}
+[19.120772] (-) TimerEvent: {}
+[19.221465] (-) TimerEvent: {}
+[19.322110] (-) TimerEvent: {}
+[19.422718] (-) TimerEvent: {}
+[19.523228] (-) TimerEvent: {}
+[19.623903] (-) TimerEvent: {}
+[19.673040] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[19.724520] (-) TimerEvent: {}
+[19.804653] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[19.824851] (-) TimerEvent: {}
+[19.926447] (-) TimerEvent: {}
+[19.934880] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[19.953532] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yumasgmt/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/yumasgmt/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yumasgmt'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-9e34ac9c-dd09-49d0-8c9d-ef4f5f52fce4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/8784_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/cpp_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble')]), 'shell': False}
+[19.977912] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.978339] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[19.994986] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[19.995626] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[19.996249] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[19.996827] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[19.997256] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[19.997447] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[19.997772] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[19.998027] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[19.998225] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[19.998465] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[19.998678] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[19.998847] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[19.999346] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[19.999658] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[19.999899] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[20.005272] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[20.005764] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[20.013020] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[20.026626] (-) TimerEvent: {}
+[20.128097] (-) TimerEvent: {}
+[20.229626] (-) TimerEvent: {}
+[20.330168] (-) TimerEvent: {}
+[20.437583] (-) TimerEvent: {}
+[20.552803] (-) TimerEvent: {}
+[20.561737] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[20.568346] (-) EventReactorShutdown: {}

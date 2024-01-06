@@ -1,0 +1,65 @@
+[0.152s] Invoking command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yumasgmt/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/cpp_pubsub
+[0.463s] -- The C compiler identification is GNU 11.4.0
+[1.480s] -- The CXX compiler identification is GNU 11.4.0
+[2.117s] -- Detecting C compiler ABI info
+[2.558s] -- Detecting C compiler ABI info - done
+[2.577s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.577s] -- Detecting C compile features
+[2.578s] -- Detecting C compile features - done
+[2.602s] -- Detecting CXX compiler ABI info
+[3.301s] -- Detecting CXX compiler ABI info - done
+[3.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.325s] -- Detecting CXX compile features
+[3.327s] -- Detecting CXX compile features - done
+[3.333s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.823s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.153s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[4.560s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.570s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.587s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.621s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.916s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.925s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.163s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.962s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.417s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.438s] -- Looking for pthread.h
+[13.991s] -- Looking for pthread.h - found
+[13.991s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.380s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.382s] -- Found Threads: TRUE  
+[15.127s] -- Configuring done
+[15.165s] -- Generating done
+[15.168s] -- Build files have been written to: /home/yumasgmt/ros2_ws/build/cpp_pubsub
+[15.195s] Invoked command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yumasgmt/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/cpp_pubsub
+[15.196s] Invoking command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[15.343s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[15.373s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[32.923s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[34.643s] [ 75%] Built target talker
+[43.252s] [100%] [32m[1mLinking CXX executable listener[0m
+[44.201s] [100%] Built target listener
+[44.218s] Invoked command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[44.257s] Invoking command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yumasgmt/ros2_ws/build/cpp_pubsub
+[44.264s] -- Install configuration: ""
+[44.268s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[44.268s] -- Set runtime path of "/home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[44.269s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[44.275s] -- Set runtime path of "/home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[44.276s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[44.276s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[44.277s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[44.277s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[44.277s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[44.277s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[44.278s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[44.278s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[44.279s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[44.280s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[44.280s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[44.280s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[44.281s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[44.281s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[44.281s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[44.284s] Invoked command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yumasgmt/ros2_ws/build/cpp_pubsub

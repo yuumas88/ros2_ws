@@ -1,0 +1,37 @@
+[0.187s] Invoking command in '/home/yumasgmt/ros2_ws/build/can_plugins2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/can_plugins2 -- -j4 -l4
+[0.426s] [35m[1mConsolidate compiler generated dependencies of target can_plugins2__rosidl_generator_c[0m
+[0.457s] [  3%] Built target can_plugins2__cpp
+[0.486s] [ 12%] Built target can_plugins2__rosidl_generator_c
+[0.508s] [35m[1mConsolidate compiler generated dependencies of target can_plugins2__rosidl_typesupport_fastrtps_cpp[0m
+[0.523s] [ 12%] Built target ament_cmake_python_copy_can_plugins2
+[0.523s] [35m[1mConsolidate compiler generated dependencies of target can_plugins2__rosidl_typesupport_cpp[0m
+[0.539s] [ 21%] Built target can_plugins2__rosidl_typesupport_fastrtps_cpp
+[0.551s] [35m[1mConsolidate compiler generated dependencies of target can_plugins2__rosidl_typesupport_introspection_cpp[0m
+[0.553s] [ 30%] Built target can_plugins2__rosidl_typesupport_cpp
+[0.572s] [ 39%] Built target can_plugins2__rosidl_typesupport_introspection_cpp
+[0.575s] [35m[1mConsolidate compiler generated dependencies of target can_plugins2__rosidl_typesupport_fastrtps_c[0m
+[0.576s] [35m[1mConsolidate compiler generated dependencies of target can_plugins2__rosidl_typesupport_introspection_c[0m
+[0.597s] [ 48%] Built target can_plugins2__rosidl_typesupport_introspection_c
+[0.601s] [35m[1mConsolidate compiler generated dependencies of target can_plugins2__rosidl_typesupport_c[0m
+[0.604s] [ 57%] Built target can_plugins2__rosidl_typesupport_fastrtps_c
+[0.624s] [ 66%] Built target can_plugins2__rosidl_typesupport_c
+[0.654s] [35m[1mConsolidate compiler generated dependencies of target slcan_bridge[0m
+[0.707s] [ 66%] Built target can_plugins2
+[0.750s] [ 69%] [32mBuilding CXX object CMakeFiles/slcan_bridge.dir/src/slcan_bridge.cpp.o[0m
+[0.771s] [01m[K/home/yumasgmt/ros2_ws/src/can_plugins2/src/slcan_bridge.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kslcan_bridge.hpp: No such file or directory
+[0.772s]     1 | #include [01;31m[K"slcan_bridge.hpp"[m[K
+[0.772s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.772s] compilation terminated.
+[0.774s] gmake[2]: *** [CMakeFiles/slcan_bridge.dir/build.make:76: CMakeFiles/slcan_bridge.dir/src/slcan_bridge.cpp.o] Error 1
+[0.774s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/slcan_bridge.dir/all] Error 2
+[0.774s] gmake[1]: *** Waiting for unfinished jobs....
+[0.796s] [ 72%] Built target can_plugins2__py
+[1.042s] running egg_info
+[1.043s] writing can_plugins2.egg-info/PKG-INFO
+[1.044s] writing dependency_links to can_plugins2.egg-info/dependency_links.txt
+[1.045s] writing top-level names to can_plugins2.egg-info/top_level.txt
+[1.054s] reading manifest file 'can_plugins2.egg-info/SOURCES.txt'
+[1.059s] writing manifest file 'can_plugins2.egg-info/SOURCES.txt'
+[1.101s] [ 72%] Built target ament_cmake_python_build_can_plugins2_egg
+[1.103s] gmake: *** [Makefile:146: all] Error 2
+[1.105s] Invoked command in '/home/yumasgmt/ros2_ws/build/can_plugins2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/can_plugins2 -- -j4 -l4

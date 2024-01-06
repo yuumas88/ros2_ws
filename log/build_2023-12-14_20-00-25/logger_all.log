@@ -1,0 +1,229 @@
+[1.073s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.074s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2b81c345e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2b81ece350>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2b81ece350>>)
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.123s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yumasgmt/ros2_ws'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_plugins2) by extensions ['ignore', 'ignore_ament_install']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_plugins2) by extension 'ignore'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_plugins2) by extension 'ignore_ament_install'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_plugins2) by extensions ['colcon_pkg']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_plugins2) by extension 'colcon_pkg'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_plugins2) by extensions ['colcon_meta']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_plugins2) by extension 'colcon_meta'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_plugins2) by extensions ['ros']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_plugins2) by extension 'ros'
+[1.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/can_plugins2' with type 'ros.ament_cmake' and name 'can_plugins2'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[1.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[1.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_cmake' and name 'my_package'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extensions ['ignore', 'ignore_ament_install']
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extension 'ignore'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extension 'ignore_ament_install'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extensions ['colcon_pkg']
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extension 'colcon_pkg'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extensions ['colcon_meta']
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extension 'colcon_meta'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extensions ['ros']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extension 'ros'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extensions ['cmake', 'python']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extension 'cmake'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extension 'python'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extensions ['python_setup_py']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src) by extension 'python_setup_py'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src/underc_package) by extensions ['ignore', 'ignore_ament_install']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src/underc_package) by extension 'ignore'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src/underc_package) by extension 'ignore_ament_install'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src/underc_package) by extensions ['colcon_pkg']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src/underc_package) by extension 'colcon_pkg'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src/underc_package) by extensions ['colcon_meta']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src/underc_package) by extension 'colcon_meta'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src/underc_package) by extensions ['ros']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(tmp_src/underc_package) by extension 'ros'
+[1.150s] DEBUG:colcon.colcon_core.package_identification:Package 'tmp_src/underc_package' with type 'ros.ament_cmake' and name 'underc_package'
+[1.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/yumasgmt/ros2_ws/install
+[1.289s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[1.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.424s] Level 5:colcon.colcon_core.verb:set package 'can_plugins2' build argument 'cmake_args' from command line to 'None'
+[1.424s] Level 5:colcon.colcon_core.verb:set package 'can_plugins2' build argument 'cmake_target' from command line to 'None'
+[1.424s] Level 5:colcon.colcon_core.verb:set package 'can_plugins2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.424s] Level 5:colcon.colcon_core.verb:set package 'can_plugins2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.424s] Level 5:colcon.colcon_core.verb:set package 'can_plugins2' build argument 'cmake_clean_first' from command line to 'False'
+[1.424s] Level 5:colcon.colcon_core.verb:set package 'can_plugins2' build argument 'cmake_force_configure' from command line to 'False'
+[1.425s] Level 5:colcon.colcon_core.verb:set package 'can_plugins2' build argument 'ament_cmake_args' from command line to 'None'
+[1.425s] Level 5:colcon.colcon_core.verb:set package 'can_plugins2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.425s] Level 5:colcon.colcon_core.verb:set package 'can_plugins2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.425s] DEBUG:colcon.colcon_core.verb:Building package 'can_plugins2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yumasgmt/ros2_ws/build/can_plugins2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yumasgmt/ros2_ws/install/can_plugins2', 'merge_install': False, 'path': '/home/yumasgmt/ros2_ws/src/can_plugins2', 'symlink_install': False, 'test_result_base': None}
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.441s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yumasgmt/ros2_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yumasgmt/ros2_ws/install/my_package', 'merge_install': False, 'path': '/home/yumasgmt/ros2_ws/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'underc_package' build argument 'cmake_args' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'underc_package' build argument 'cmake_target' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'underc_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'underc_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'underc_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'underc_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'underc_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'underc_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'underc_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.455s] DEBUG:colcon.colcon_core.verb:Building package 'underc_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yumasgmt/ros2_ws/build/underc_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yumasgmt/ros2_ws/install/underc_package', 'merge_install': False, 'path': '/home/yumasgmt/ros2_ws/tmp_src/underc_package', 'symlink_install': False, 'test_result_base': None}
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.473s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yumasgmt/ros2_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yumasgmt/ros2_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/yumasgmt/ros2_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[1.492s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.507s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yumasgmt/ros2_ws/src/can_plugins2' with build type 'ament_cmake'
+[1.508s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yumasgmt/ros2_ws/src/can_plugins2'
+[1.527s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.593s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yumasgmt/ros2_ws/src/my_package' with build type 'ament_cmake'
+[1.594s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yumasgmt/ros2_ws/src/my_package'
+[1.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.630s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.791s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yumasgmt/ros2_ws/tmp_src/underc_package' with build type 'ament_cmake'
+[1.791s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yumasgmt/ros2_ws/tmp_src/underc_package'
+[1.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yumasgmt/ros2_ws/build/can_plugins2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/can_plugins2 -- -j4 -l4
+[1.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yumasgmt/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/my_package -- -j4 -l4
+[1.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yumasgmt/ros2_ws/build/underc_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yumasgmt/ros2_ws/tmp_src/underc_package -DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/underc_package
+[2.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yumasgmt/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/my_package -- -j4 -l4
+[2.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yumasgmt/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yumasgmt/ros2_ws/build/my_package
+[2.161s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[2.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yumasgmt/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yumasgmt/ros2_ws/build/my_package
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/my_package' for CMake module files
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/my_package' for CMake config files
+[2.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[2.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[2.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[2.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[2.283s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/my_package/bin'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/my_package/lib/python3.10/site-packages'
+[2.293s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/my_package/bin'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/package.ps1'
+[2.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/package.dsv'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/package.sh'
+[2.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/package.bash'
+[2.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/package.zsh'
+[2.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yumasgmt/ros2_ws/install/my_package/share/colcon-core/packages/my_package)
+[2.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[2.690s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/my_package' for CMake module files
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/my_package' for CMake config files
+[2.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[2.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[2.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[2.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/my_package/bin'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/my_package/lib/python3.10/site-packages'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/my_package/bin'
+[2.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/package.ps1'
+[2.867s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/package.dsv'
+[2.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/package.sh'
+[2.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/package.bash'
+[2.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/yumasgmt/ros2_ws/install/my_package/share/my_package/package.zsh'
+[2.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yumasgmt/ros2_ws/install/my_package/share/colcon-core/packages/my_package)
+[6.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yumasgmt/ros2_ws/build/underc_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yumasgmt/ros2_ws/tmp_src/underc_package -DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/underc_package
+[6.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yumasgmt/ros2_ws/build/underc_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/underc_package -- -j4 -l4
+[7.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yumasgmt/ros2_ws/build/underc_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/underc_package -- -j4 -l4
+[7.141s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(underc_package)
+[7.193s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/underc_package' for CMake module files
+[7.194s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/underc_package' for CMake config files
+[7.194s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/underc_package/bin'
+[7.195s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/underc_package/lib/pkgconfig/underc_package.pc'
+[7.195s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/underc_package/lib/python3.10/site-packages'
+[7.196s] Level 1:colcon.colcon_core.environment:checking '/home/yumasgmt/ros2_ws/install/underc_package/bin'
+[7.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/yumasgmt/ros2_ws/install/underc_package/share/underc_package/package.ps1'
+[7.237s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yumasgmt/ros2_ws/install/underc_package/share/underc_package/package.dsv'
+[7.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/yumasgmt/ros2_ws/install/underc_package/share/underc_package/package.sh'
+[7.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/yumasgmt/ros2_ws/install/underc_package/share/underc_package/package.bash'
+[7.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/yumasgmt/ros2_ws/install/underc_package/share/underc_package/package.zsh'
+[7.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yumasgmt/ros2_ws/install/underc_package/share/colcon-core/packages/underc_package)
+[33.945s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.945s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.945s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[33.946s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.074s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[34.074s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.075s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.075s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'

@@ -1,0 +1,5 @@
+source;share/underc_package/local_setup.bash
+source;share/underc_package/local_setup.dsv
+source;share/underc_package/local_setup.ps1
+source;share/underc_package/local_setup.sh
+source;share/underc_package/local_setup.zsh

@@ -1,0 +1,7 @@
+[01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_target_callback()[m[K’:
+[01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:96:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   96 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/pub_hello_can.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

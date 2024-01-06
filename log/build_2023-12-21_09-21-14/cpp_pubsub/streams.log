@@ -1,0 +1,73 @@
+[0.307s] Invoking command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble LD_LIBRARY_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[0.383s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.408s] [ 50%] Built target listener
+[0.422s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub_hello_can.cpp.o[0m
+[6.882s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.884s]                  from [01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:6[m[K:
+[6.884s] [01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.884s] [01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:86:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 5 has type ‘[01m[Kstd::array<unsigned char, 8>::value_type*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[6.884s]    86 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Published Shirasu Mode: %u"[m[K, &mode_msg.data[0]);
+[6.884s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.885s] [01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:86:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[6.885s]    86 |       RCLCPP_INFO(this->get_logger(), "Published Shirasu Mode: [01;36m[K%u[m[K", &mode_msg.data[0]);
+[6.886s]       |                                                                [01;36m[K~^[m[K
+[6.886s]       |                                                                 [01;36m[K|[m[K
+[6.886s]       |                                                                 [01;36m[Kunsigned int[m[K
+[6.887s]       |                                                                [32m[K%hhn[m[K
+[6.887s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.889s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.889s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.889s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.889s]                  from [01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:6[m[K:
+[6.889s] [01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_target_callback()[m[K’:
+[6.889s] [01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:94:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 5 has type ‘[01m[Kcan_plugins2::msg::Frame_<std::allocator<void> >::_data_type*[m[K’ {aka ‘[01m[Kstd::array<unsigned char, 8>*[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[6.889s]    94 |     RCLCPP_INFO(this->get_logger(),[01;35m[K"Published Shirasu Target: %u"[m[K, [32m[K&target_msg.data[m[K);
+[6.889s]       |                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[6.890s]       |                                                                    [32m[K|[m[K
+[6.890s]       |                                                                    [32m[Kcan_plugins2::msg::Frame_<std::allocator<void> >::_data_type* {aka std::array<unsigned char, 8>*}[m[K
+[6.890s] [01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:94:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[6.890s]    94 |     RCLCPP_INFO(this->get_logger(),"Published Shirasu Target: [01;36m[K%u[m[K", &target_msg.data);
+[6.890s]       |                                                               [01;36m[K~^[m[K
+[6.890s]       |                                                                [01;36m[K|[m[K
+[6.891s]       |                                                                [01;36m[Kunsigned int[m[K
+[19.702s] [100%] [32m[1mLinking CXX executable talker[0m
+[21.123s] [100%] Built target talker
+[21.153s] Invoked command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble LD_LIBRARY_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[21.246s] Invoking command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble LD_LIBRARY_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yumasgmt/ros2_ws/build/cpp_pubsub
+[21.265s] -- Install configuration: ""
+[21.266s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[21.286s] -- Set runtime path of "/home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[21.286s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[21.287s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[21.288s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[21.288s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[21.289s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[21.289s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[21.290s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[21.290s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[21.294s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[21.295s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[21.295s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[21.295s] -- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[21.295s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[21.300s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[21.301s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[21.301s] -- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[21.311s] Invoked command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble LD_LIBRARY_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yumasgmt/ros2_ws/build/cpp_pubsub

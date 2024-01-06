@@ -1,0 +1,37 @@
+[0.198s] Invoking command in '/home/yumasgmt/ros2_ws/build/underc_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yumasgmt/ros2_ws/tmp_src/underc_package -DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/underc_package
+[0.945s] -- The C compiler identification is GNU 11.4.0
+[2.214s] -- The CXX compiler identification is GNU 11.4.0
+[2.836s] -- Detecting C compiler ABI info
+[3.237s] -- Detecting C compiler ABI info - done
+[3.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.265s] -- Detecting C compile features
+[3.268s] -- Detecting C compile features - done
+[3.312s] -- Detecting CXX compiler ABI info
+[3.649s] -- Detecting CXX compiler ABI info - done
+[3.660s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.661s] -- Detecting CXX compile features
+[3.662s] -- Detecting CXX compile features - done
+[3.682s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.148s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.406s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.637s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.639s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yumasgmt/ros2_ws/tmp_src/underc_package/include>
+[4.640s] -- Configured cppcheck exclude dirs and/or files: 
+[4.647s] -- Added test 'lint_cmake' to check CMake code style
+[4.652s] -- Added test 'uncrustify' to check C / C++ code style
+[4.653s] -- Configured uncrustify additional arguments: 
+[4.658s] -- Added test 'xmllint' to check XML markup files
+[4.667s] -- Configuring done
+[4.703s] -- Generating done
+[4.708s] -- Build files have been written to: /home/yumasgmt/ros2_ws/build/underc_package
+[4.722s] Invoked command in '/home/yumasgmt/ros2_ws/build/underc_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yumasgmt/ros2_ws/tmp_src/underc_package -DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/underc_package
+[4.722s] Invoking command in '/home/yumasgmt/ros2_ws/build/underc_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/underc_package -- -j4 -l4
+[4.814s] [ 50%] [32mBuilding CXX object CMakeFiles/underc_node.dir/src/underc_node.cpp.o[0m
+[4.851s] [100%] [32m[1mLinking CXX executable underc_node[0m
+[5.203s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[5.203s] (.text+0x1b): undefined reference to `main'
+[5.210s] collect2: error: ld returned 1 exit status
+[5.217s] gmake[2]: *** [CMakeFiles/underc_node.dir/build.make:97: underc_node] Error 1
+[5.218s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/underc_node.dir/all] Error 2
+[5.218s] gmake: *** [Makefile:146: all] Error 2
+[5.218s] Invoked command in '/home/yumasgmt/ros2_ws/build/underc_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/underc_package -- -j4 -l4

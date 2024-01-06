@@ -1,0 +1,8 @@
+[0.331s] Invoking command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble LD_LIBRARY_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[0.434s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.456s] [ 50%] Built target listener
+[0.465s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub_hello_can.cpp.o[0m
+[4.883s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/pub_hello_can.cpp.o] Interrupt
+[4.885s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Interrupt
+[4.885s] gmake: *** [Makefile:146: all] Interrupt
+[4.919s] Invoked command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub' returned '-2': AMENT_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble LD_LIBRARY_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/cpp_pubsub -- -j4 -l4

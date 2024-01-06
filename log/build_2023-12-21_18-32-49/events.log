@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.000595] (-) JobUnselected: {'identifier': 'can_plugins2'}
+[0.000930] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001037] (-) JobUnselected: {'identifier': 'underc_package'}
+[0.001111] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('can_plugins2', '/home/yumasgmt/ros2_ws/install/can_plugins2')])}
+[0.001188] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.098309] (-) TimerEvent: {}
+[0.198883] (-) TimerEvent: {}
+[0.218112] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.220245] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.221993] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yumasgmt/ros2_ws/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/yumasgmt/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yumasgmt'), ('OLDPWD', '/home/yumasgmt/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-d81876ed-9bdd-469e-8db9-24924121699e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install:/home/yumasgmt/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/11322_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/cpp_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.299076] (-) TimerEvent: {}
+[0.301165] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.323839] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.337369] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/pub_hello_can.cpp.o\x1b[0m\n'}
+[0.399209] (-) TimerEvent: {}
+[0.499632] (-) TimerEvent: {}
+[0.599963] (-) TimerEvent: {}
+[0.700380] (-) TimerEvent: {}
+[0.800903] (-) TimerEvent: {}
+[0.901485] (-) TimerEvent: {}
+[1.001978] (-) TimerEvent: {}
+[1.102506] (-) TimerEvent: {}
+[1.203121] (-) TimerEvent: {}
+[1.303738] (-) TimerEvent: {}
+[1.404341] (-) TimerEvent: {}
+[1.504912] (-) TimerEvent: {}
+[1.605365] (-) TimerEvent: {}
+[1.705873] (-) TimerEvent: {}
+[1.806373] (-) TimerEvent: {}
+[1.906885] (-) TimerEvent: {}
+[2.007429] (-) TimerEvent: {}
+[2.107910] (-) TimerEvent: {}
+[2.208447] (-) TimerEvent: {}
+[2.308987] (-) TimerEvent: {}
+[2.409436] (-) TimerEvent: {}
+[2.509940] (-) TimerEvent: {}
+[2.610429] (-) TimerEvent: {}
+[2.710879] (-) TimerEvent: {}
+[2.811412] (-) TimerEvent: {}
+[2.911881] (-) TimerEvent: {}
+[3.012451] (-) TimerEvent: {}
+[3.113034] (-) TimerEvent: {}
+[3.213568] (-) TimerEvent: {}
+[3.314054] (-) TimerEvent: {}
+[3.414588] (-) TimerEvent: {}
+[3.515114] (-) TimerEvent: {}
+[3.615620] (-) TimerEvent: {}
+[3.716100] (-) TimerEvent: {}
+[3.816560] (-) TimerEvent: {}
+[3.917054] (-) TimerEvent: {}
+[4.017540] (-) TimerEvent: {}
+[4.118010] (-) TimerEvent: {}
+[4.218516] (-) TimerEvent: {}
+[4.319008] (-) TimerEvent: {}
+[4.419536] (-) TimerEvent: {}
+[4.520028] (-) TimerEvent: {}
+[4.620567] (-) TimerEvent: {}
+[4.721075] (-) TimerEvent: {}
+[4.821530] (-) TimerEvent: {}
+[4.922016] (-) TimerEvent: {}
+[5.022527] (-) TimerEvent: {}
+[5.122998] (-) TimerEvent: {}
+[5.223506] (-) TimerEvent: {}
+[5.323992] (-) TimerEvent: {}
+[5.424420] (-) TimerEvent: {}
+[5.524901] (-) TimerEvent: {}
+[5.625413] (-) TimerEvent: {}
+[5.726020] (-) TimerEvent: {}
+[5.826487] (-) TimerEvent: {}
+[5.926931] (-) TimerEvent: {}
+[6.027390] (-) TimerEvent: {}
+[6.127846] (-) TimerEvent: {}
+[6.228302] (-) TimerEvent: {}
+[6.328846] (-) TimerEvent: {}
+[6.429402] (-) TimerEvent: {}
+[6.530019] (-) TimerEvent: {}
+[6.630611] (-) TimerEvent: {}
+[6.731225] (-) TimerEvent: {}
+[6.831721] (-) TimerEvent: {}
+[6.932225] (-) TimerEvent: {}
+[7.032707] (-) TimerEvent: {}
+[7.133202] (-) TimerEvent: {}
+[7.233640] (-) TimerEvent: {}
+[7.334134] (-) TimerEvent: {}
+[7.434613] (-) TimerEvent: {}
+[7.535082] (-) TimerEvent: {}
+[7.635595] (-) TimerEvent: {}
+[7.736086] (-) TimerEvent: {}
+[7.836560] (-) TimerEvent: {}
+[7.937061] (-) TimerEvent: {}
+[8.037519] (-) TimerEvent: {}
+[8.138005] (-) TimerEvent: {}
+[8.238686] (-) TimerEvent: {}
+[8.339347] (-) TimerEvent: {}
+[8.440094] (-) TimerEvent: {}
+[8.540531] (-) TimerEvent: {}
+[8.641101] (-) TimerEvent: {}
+[8.741673] (-) TimerEvent: {}
+[8.842164] (-) TimerEvent: {}
+[8.942608] (-) TimerEvent: {}
+[9.043090] (-) TimerEvent: {}
+[9.143584] (-) TimerEvent: {}
+[9.244117] (-) TimerEvent: {}
+[9.344564] (-) TimerEvent: {}
+[9.445024] (-) TimerEvent: {}
+[9.545558] (-) TimerEvent: {}
+[9.646072] (-) TimerEvent: {}
+[9.746525] (-) TimerEvent: {}
+[9.847108] (-) TimerEvent: {}
+[9.947541] (-) TimerEvent: {}
+[10.048038] (-) TimerEvent: {}
+[10.148555] (-) TimerEvent: {}
+[10.249019] (-) TimerEvent: {}
+[10.349503] (-) TimerEvent: {}
+[10.449942] (-) TimerEvent: {}
+[10.550428] (-) TimerEvent: {}
+[10.650898] (-) TimerEvent: {}
+[10.751389] (-) TimerEvent: {}
+[10.851891] (-) TimerEvent: {}
+[10.952456] (-) TimerEvent: {}
+[11.053029] (-) TimerEvent: {}
+[11.153581] (-) TimerEvent: {}
+[11.254125] (-) TimerEvent: {}
+[11.354580] (-) TimerEvent: {}
+[11.455031] (-) TimerEvent: {}
+[11.555510] (-) TimerEvent: {}
+[11.656008] (-) TimerEvent: {}
+[11.756448] (-) TimerEvent: {}
+[11.857000] (-) TimerEvent: {}
+[11.957776] (-) TimerEvent: {}
+[12.058214] (-) TimerEvent: {}
+[12.158845] (-) TimerEvent: {}
+[12.259476] (-) TimerEvent: {}
+[12.360117] (-) TimerEvent: {}
+[12.460779] (-) TimerEvent: {}
+[12.561344] (-) TimerEvent: {}
+[12.662242] (-) TimerEvent: {}
+[12.763019] (-) TimerEvent: {}
+[12.863659] (-) TimerEvent: {}
+[12.964111] (-) TimerEvent: {}
+[13.064868] (-) TimerEvent: {}
+[13.165468] (-) TimerEvent: {}
+[13.266112] (-) TimerEvent: {}
+[13.366582] (-) TimerEvent: {}
+[13.467337] (-) TimerEvent: {}
+[13.568441] (-) TimerEvent: {}
+[13.669216] (-) TimerEvent: {}
+[13.769834] (-) TimerEvent: {}
+[13.870312] (-) TimerEvent: {}
+[13.970793] (-) TimerEvent: {}
+[14.071448] (-) TimerEvent: {}
+[14.172761] (-) TimerEvent: {}
+[14.273311] (-) TimerEvent: {}
+[14.373749] (-) TimerEvent: {}
+[14.474237] (-) TimerEvent: {}
+[14.574788] (-) TimerEvent: {}
+[14.675372] (-) TimerEvent: {}
+[14.775838] (-) TimerEvent: {}
+[14.876491] (-) TimerEvent: {}
+[14.977167] (-) TimerEvent: {}
+[15.077910] (-) TimerEvent: {}
+[15.178397] (-) TimerEvent: {}
+[15.278834] (-) TimerEvent: {}
+[15.379414] (-) TimerEvent: {}
+[15.479905] (-) TimerEvent: {}
+[15.580450] (-) TimerEvent: {}
+[15.680974] (-) TimerEvent: {}
+[15.781493] (-) TimerEvent: {}
+[15.881986] (-) TimerEvent: {}
+[15.884093] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[15.982120] (-) TimerEvent: {}
+[16.082653] (-) TimerEvent: {}
+[16.183242] (-) TimerEvent: {}
+[16.283853] (-) TimerEvent: {}
+[16.384450] (-) TimerEvent: {}
+[16.484948] (-) TimerEvent: {}
+[16.585461] (-) TimerEvent: {}
+[16.685975] (-) TimerEvent: {}
+[16.786566] (-) TimerEvent: {}
+[16.887203] (-) TimerEvent: {}
+[16.985494] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[16.987374] (-) TimerEvent: {}
+[17.003315] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[17.062205] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[17.071695] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yumasgmt/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/yumasgmt/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yumasgmt'), ('OLDPWD', '/home/yumasgmt/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-d81876ed-9bdd-469e-8db9-24924121699e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install:/home/yumasgmt/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/11322_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/cpp_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[17.080715] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.081260] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[17.087485] (-) TimerEvent: {}
+[17.119131] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[17.119482] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[17.119709] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[17.120082] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[17.120288] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[17.120632] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[17.121067] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[17.121570] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[17.121761] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[17.121941] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[17.122092] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[17.122238] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[17.122391] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[17.122559] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[17.123017] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[17.123159] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[17.123285] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yumasgmt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[17.132355] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[17.187710] (-) TimerEvent: {}
+[17.288211] (-) TimerEvent: {}
+[17.389037] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[17.390930] (-) TimerEvent: {}
+[17.391246] (-) EventReactorShutdown: {}

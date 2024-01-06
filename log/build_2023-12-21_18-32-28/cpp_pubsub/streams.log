@@ -1,0 +1,11 @@
+[0.202s] Invoking command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[0.311s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub_hello_can.cpp.o[0m
+[0.314s] [ 75%] Built target listener
+[4.447s] [01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_target_callback()[m[K’:
+[4.447s] [01m[K/home/yumasgmt/ros2_ws/src/cpp_pubsub/src/pub_hello_can.cpp:96:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[4.448s]    96 |   [01;31m[K}[m[K
+[4.448s]       |   [01;31m[K^[m[K
+[8.434s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/pub_hello_can.cpp.o] Error 1
+[8.434s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[8.434s] gmake: *** [Makefile:146: all] Error 2
+[8.437s] Invoked command in '/home/yumasgmt/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/yumasgmt/ros2_ws/install/can_plugins2:/home/yumasgmt/ros2_ws/install/my_package:/home/yumasgmt/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/yumasgmt/ros2_ws/build/cpp_pubsub -- -j4 -l4
