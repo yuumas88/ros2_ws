@@ -7,54 +7,54 @@
 #include "std_msgs/msg/string.hpp"
 #include "sensor_msgs/msg/joy.hpp"
 #include <can_plugins2/msg/frame.hpp>
-#include "sensor_msgs/Joy.h"
 #include "can_utils.hpp"
 #include <math.h>
 
-using namespace can_utils;
-
-can_plugins2::msg::Frame generate_shirasu_mode(const uint16_t id, const uint8_t mode)
+namespace can_utils
 {
-  const int byte_size = 1;  // Mode is 1 byte.
-  
-  can_plugins2::msg::Frame frame;
-  frame.id = id;
-  frame.is_rtr = false;
-  frame.is_extended = false;
-  frame.is_error = false;
+  can_plugins2::msg::Frame generate_shirasu_mode(const uint16_t id, const uint8_t mode)
+  {
+    const int byte_size = 1;  // Mode is 1 byte.
+    
+    can_plugins2::msg::Frame frame;
+    frame.id = id;
+    frame.is_rtr = false;
+    frame.is_extended = false;
+    frame.is_error = false;
 
-  frame.dlc = byte_size;
+    frame.dlc = byte_size;
 
-  frame.data[0] = mode;
+    frame.data[0] = mode;
 
-  return frame;
-}
+    return frame;
+  }
 
-can_plugins2::msg::Frame generate_shirasu_target(const uint16_t id, const float data)
-{
-  const int float_size = 4;  // float is 4 bytes.
-  
-  can_plugins2::msg::Frame frame;
-  frame.id = id;
-  frame.is_rtr = false;
-  frame.is_extended = false;
-  frame.is_error = false;
+  can_plugins2::msg::Frame generate_shirasu_target(const uint16_t id, const float data)
+  {
+    const int float_size = 4;  // float is 4 bytes.
+    
+    can_plugins2::msg::Frame frame;
+    frame.id = id;
+    frame.is_rtr = false;
+    frame.is_extended = false;
+    frame.is_error = false;
 
-  frame.dlc = float_size;
+    frame.dlc = float_size;
 
-  can_pack<float>(frame.data, data);
+    can_pack<float>(frame.data, data);
 
-  const auto tmp1 = frame.data[0];
-  const auto tmp2 = frame.data[1];
-  const auto tmp3 = frame.data[2];
-  const auto tmp4 = frame.data[3];
+    const auto tmp1 = frame.data[0];
+    const auto tmp2 = frame.data[1];
+    const auto tmp3 = frame.data[2];
+    const auto tmp4 = frame.data[3];
 
-  frame.data[0] = tmp4;
-  frame.data[1] = tmp3;
-  frame.data[2] = tmp2;
-  frame.data[3] = tmp1;
-  
-  return frame;
+    frame.data[0] = tmp4;
+    frame.data[1] = tmp3;
+    frame.data[2] = tmp2;
+    frame.data[3] = tmp1;
+    
+    return frame;
+  }
 }
 
 const uint16_t shirasu_id = 0x720;
@@ -70,7 +70,7 @@ public:
     joy_subscriber_ = this->create_subscription<sensor_msgs::msg::Joy>(
       "joy", 10, std::bind(&MinimalPublisher::joy_callback, this, _1)
     );
-    
+
     timer_target_ = this->create_wall_timer(
       500ms, std::bind(&MinimalPublisher::timer_target_callback, this));
   }
@@ -80,7 +80,7 @@ private:
   {
     if (joy_msg->buttons[0] == 1)
     {
-      can_plugins2::msg::Frame mode_msg = generate_shirasu_mode(shirasu_id, 5);
+      can_plugins2::msg::Frame mode_msg = can_utils::generate_shirasu_mode(shirasu_id, 5);
       publisher_->publish(mode_msg);
       RCLCPP_INFO(this->get_logger(), "Published Shirasu Mode: '%d'", mode_msg.data[0]);
     }
@@ -88,7 +88,7 @@ private:
 
   void timer_target_callback()
   {
-    can_plugins2::msg::Frame target_msg = generate_shirasu_target(shirasu_id + 1, static_cast<float>(5.0));
+    can_plugins2::msg::Frame target_msg = can_utils::generate_shirasu_target(shirasu_id + 1, static_cast<float>(5.0));
     publisher_->publish(target_msg);
     RCLCPP_INFO(this->get_logger(),"any");
   }
@@ -100,11 +100,6 @@ private:
 
 int main(int argc, char **argv)
 {
-
-    ros::init(argc, argv, "SLC4");
-
-    ros::NodeHandle n;
-
     ros::Publisher chatter = n.advertise<shirasu_ros::CanFrame>("can_tx", 1000); // 仮のshirasuのデータ型
 
     ros::Subscriber sub = n.subscribe("joy", 1000, joyCallback);
