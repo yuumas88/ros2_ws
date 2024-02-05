@@ -1,0 +1,374 @@
+[0.000000] (-) TimerEvent: {}
+[0.001169] (-) JobUnselected: {'identifier': 'can_plugins2'}
+[0.001271] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001318] (-) JobUnselected: {'identifier': 'underc_package'}
+[0.001372] (omni_4) JobQueued: {'identifier': 'omni_4', 'dependencies': OrderedDict([('can_plugins2', '/home/yumasgmt/ros2_ws/install/can_plugins2')])}
+[0.001443] (omni_4) JobStarted: {'identifier': 'omni_4'}
+[0.099204] (-) TimerEvent: {}
+[0.199674] (-) TimerEvent: {}
+[0.202667] (omni_4) JobProgress: {'identifier': 'omni_4', 'progress': 'cmake'}
+[0.204024] (omni_4) Command: {'cmd': ['/usr/bin/cmake', '/home/yumasgmt/ros2_ws/src/omni_4', '-DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/omni_4'], 'cwd': '/home/yumasgmt/ros2_ws/build/omni_4', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yumasgmt'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6c0ee765-81ec-4345-b6b8-e78a40b249b7.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/475_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/omni_4'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble')]), 'shell': False}
+[0.299879] (-) TimerEvent: {}
+[0.399625] (omni_4) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399899] (-) TimerEvent: {}
+[0.500232] (-) TimerEvent: {}
+[0.600716] (-) TimerEvent: {}
+[0.701320] (-) TimerEvent: {}
+[0.801523] (omni_4) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.801900] (-) TimerEvent: {}
+[0.902296] (-) TimerEvent: {}
+[1.002817] (-) TimerEvent: {}
+[1.014188] (omni_4) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.018120] (omni_4) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.034675] (omni_4) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.059578] (omni_4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.090855] (omni_4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.103016] (-) TimerEvent: {}
+[1.203660] (-) TimerEvent: {}
+[1.214732] (omni_4) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.217802] (omni_4) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.303811] (-) TimerEvent: {}
+[1.404269] (-) TimerEvent: {}
+[1.504870] (-) TimerEvent: {}
+[1.605413] (-) TimerEvent: {}
+[1.706184] (-) TimerEvent: {}
+[1.808695] (-) TimerEvent: {}
+[1.912539] (-) TimerEvent: {}
+[2.013281] (-) TimerEvent: {}
+[2.114059] (-) TimerEvent: {}
+[2.214641] (-) TimerEvent: {}
+[2.315375] (-) TimerEvent: {}
+[2.415947] (-) TimerEvent: {}
+[2.516619] (-) TimerEvent: {}
+[2.617261] (-) TimerEvent: {}
+[2.717902] (-) TimerEvent: {}
+[2.818729] (-) TimerEvent: {}
+[2.919364] (-) TimerEvent: {}
+[3.019945] (-) TimerEvent: {}
+[3.120515] (-) TimerEvent: {}
+[3.221158] (-) TimerEvent: {}
+[3.321845] (-) TimerEvent: {}
+[3.422455] (-) TimerEvent: {}
+[3.523075] (-) TimerEvent: {}
+[3.623682] (-) TimerEvent: {}
+[3.724364] (-) TimerEvent: {}
+[3.825301] (-) TimerEvent: {}
+[3.925895] (-) TimerEvent: {}
+[4.026479] (-) TimerEvent: {}
+[4.127038] (-) TimerEvent: {}
+[4.227594] (-) TimerEvent: {}
+[4.328319] (-) TimerEvent: {}
+[4.428886] (-) TimerEvent: {}
+[4.529509] (-) TimerEvent: {}
+[4.630151] (-) TimerEvent: {}
+[4.730701] (-) TimerEvent: {}
+[4.831315] (-) TimerEvent: {}
+[4.932095] (-) TimerEvent: {}
+[5.032674] (-) TimerEvent: {}
+[5.133267] (-) TimerEvent: {}
+[5.233967] (-) TimerEvent: {}
+[5.334622] (-) TimerEvent: {}
+[5.435153] (-) TimerEvent: {}
+[5.535863] (-) TimerEvent: {}
+[5.636397] (-) TimerEvent: {}
+[5.737090] (-) TimerEvent: {}
+[5.837744] (-) TimerEvent: {}
+[5.938234] (-) TimerEvent: {}
+[6.038746] (-) TimerEvent: {}
+[6.139267] (-) TimerEvent: {}
+[6.239862] (-) TimerEvent: {}
+[6.340321] (-) TimerEvent: {}
+[6.440901] (-) TimerEvent: {}
+[6.541462] (-) TimerEvent: {}
+[6.642067] (-) TimerEvent: {}
+[6.742641] (-) TimerEvent: {}
+[6.843188] (-) TimerEvent: {}
+[6.943812] (-) TimerEvent: {}
+[7.044405] (-) TimerEvent: {}
+[7.144943] (-) TimerEvent: {}
+[7.245454] (-) TimerEvent: {}
+[7.346029] (-) TimerEvent: {}
+[7.446561] (-) TimerEvent: {}
+[7.535997] (omni_4) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.546709] (-) TimerEvent: {}
+[7.647220] (-) TimerEvent: {}
+[7.747683] (-) TimerEvent: {}
+[7.766627] (omni_4) StdoutLine: {'line': b'-- Found can_plugins2: 0.0.1 (/home/yumasgmt/ros2_ws/install/can_plugins2/share/can_plugins2/cmake)\n'}
+[7.822572] (omni_4) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.847882] (-) TimerEvent: {}
+[7.948364] (-) TimerEvent: {}
+[8.008277] (omni_4) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.048513] (-) TimerEvent: {}
+[8.118347] (omni_4) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.118555] (omni_4) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.118635] (omni_4) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.119332] (omni_4) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.120661] (omni_4) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.120883] (omni_4) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.121229] (omni_4) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.122460] (omni_4) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.148689] (-) TimerEvent: {}
+[8.152311] (omni_4) StdoutLine: {'line': b'-- Generating done\n'}
+[8.155738] (omni_4) StdoutLine: {'line': b'-- Build files have been written to: /home/yumasgmt/ros2_ws/build/omni_4\n'}
+[8.171783] (omni_4) CommandEnded: {'returncode': 0}
+[8.172771] (omni_4) JobProgress: {'identifier': 'omni_4', 'progress': 'build'}
+[8.174409] (omni_4) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yumasgmt/ros2_ws/build/omni_4', '--', '-j4', '-l4'], 'cwd': '/home/yumasgmt/ros2_ws/build/omni_4', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yumasgmt'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6c0ee765-81ec-4345-b6b8-e78a40b249b7.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/475_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/omni_4'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble')]), 'shell': False}
+[8.235387] (omni_4) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/OMNI4ros2.cpp.o\x1b[0m\n'}
+[8.248885] (-) TimerEvent: {}
+[8.349381] (-) TimerEvent: {}
+[8.449830] (-) TimerEvent: {}
+[8.550291] (-) TimerEvent: {}
+[8.650711] (-) TimerEvent: {}
+[8.751734] (-) TimerEvent: {}
+[8.853585] (-) TimerEvent: {}
+[8.956480] (-) TimerEvent: {}
+[9.057003] (-) TimerEvent: {}
+[9.157519] (-) TimerEvent: {}
+[9.258023] (-) TimerEvent: {}
+[9.358462] (-) TimerEvent: {}
+[9.459020] (-) TimerEvent: {}
+[9.559615] (-) TimerEvent: {}
+[9.660162] (-) TimerEvent: {}
+[9.760695] (-) TimerEvent: {}
+[9.861284] (-) TimerEvent: {}
+[9.961805] (-) TimerEvent: {}
+[10.062437] (-) TimerEvent: {}
+[10.166535] (-) TimerEvent: {}
+[10.267118] (-) TimerEvent: {}
+[10.367721] (-) TimerEvent: {}
+[10.468311] (-) TimerEvent: {}
+[10.568820] (-) TimerEvent: {}
+[10.669295] (-) TimerEvent: {}
+[10.769904] (-) TimerEvent: {}
+[10.870633] (-) TimerEvent: {}
+[10.971153] (-) TimerEvent: {}
+[11.071732] (-) TimerEvent: {}
+[11.172382] (-) TimerEvent: {}
+[11.273603] (-) TimerEvent: {}
+[11.374089] (-) TimerEvent: {}
+[11.474586] (-) TimerEvent: {}
+[11.575194] (-) TimerEvent: {}
+[11.675646] (-) TimerEvent: {}
+[11.776186] (-) TimerEvent: {}
+[11.876673] (-) TimerEvent: {}
+[11.977238] (-) TimerEvent: {}
+[12.078032] (-) TimerEvent: {}
+[12.178543] (-) TimerEvent: {}
+[12.279009] (-) TimerEvent: {}
+[12.379560] (-) TimerEvent: {}
+[12.480096] (-) TimerEvent: {}
+[12.580674] (-) TimerEvent: {}
+[12.685978] (-) TimerEvent: {}
+[12.786511] (-) TimerEvent: {}
+[12.887072] (-) TimerEvent: {}
+[12.987597] (-) TimerEvent: {}
+[13.088111] (-) TimerEvent: {}
+[13.188598] (-) TimerEvent: {}
+[13.289083] (-) TimerEvent: {}
+[13.389658] (-) TimerEvent: {}
+[13.490340] (-) TimerEvent: {}
+[13.590831] (-) TimerEvent: {}
+[13.691310] (-) TimerEvent: {}
+[13.791871] (-) TimerEvent: {}
+[13.892343] (-) TimerEvent: {}
+[13.992827] (-) TimerEvent: {}
+[14.093381] (-) TimerEvent: {}
+[14.194111] (-) TimerEvent: {}
+[14.294736] (-) TimerEvent: {}
+[14.395399] (-) TimerEvent: {}
+[14.495940] (-) TimerEvent: {}
+[14.596422] (-) TimerEvent: {}
+[14.696938] (-) TimerEvent: {}
+[14.797594] (-) TimerEvent: {}
+[14.898092] (-) TimerEvent: {}
+[14.998599] (-) TimerEvent: {}
+[15.099359] (-) TimerEvent: {}
+[15.199914] (-) TimerEvent: {}
+[15.300534] (-) TimerEvent: {}
+[15.401061] (-) TimerEvent: {}
+[15.501553] (-) TimerEvent: {}
+[15.602077] (-) TimerEvent: {}
+[15.702683] (-) TimerEvent: {}
+[15.803357] (-) TimerEvent: {}
+[15.903982] (-) TimerEvent: {}
+[16.004515] (-) TimerEvent: {}
+[16.104988] (-) TimerEvent: {}
+[16.205434] (-) TimerEvent: {}
+[16.305934] (-) TimerEvent: {}
+[16.406454] (-) TimerEvent: {}
+[16.506962] (-) TimerEvent: {}
+[16.607538] (-) TimerEvent: {}
+[16.708164] (-) TimerEvent: {}
+[16.808740] (-) TimerEvent: {}
+[16.909339] (-) TimerEvent: {}
+[17.009845] (-) TimerEvent: {}
+[17.110359] (-) TimerEvent: {}
+[17.210839] (-) TimerEvent: {}
+[17.311301] (-) TimerEvent: {}
+[17.411792] (-) TimerEvent: {}
+[17.512243] (-) TimerEvent: {}
+[17.612737] (-) TimerEvent: {}
+[17.713199] (-) TimerEvent: {}
+[17.813715] (-) TimerEvent: {}
+[17.914216] (-) TimerEvent: {}
+[18.014751] (-) TimerEvent: {}
+[18.115229] (-) TimerEvent: {}
+[18.215744] (-) TimerEvent: {}
+[18.316261] (-) TimerEvent: {}
+[18.416747] (-) TimerEvent: {}
+[18.517210] (-) TimerEvent: {}
+[18.617733] (-) TimerEvent: {}
+[18.718253] (-) TimerEvent: {}
+[18.818798] (-) TimerEvent: {}
+[18.919507] (-) TimerEvent: {}
+[19.019983] (-) TimerEvent: {}
+[19.120506] (-) TimerEvent: {}
+[19.220973] (-) TimerEvent: {}
+[19.321443] (-) TimerEvent: {}
+[19.421913] (-) TimerEvent: {}
+[19.522369] (-) TimerEvent: {}
+[19.622830] (-) TimerEvent: {}
+[19.723330] (-) TimerEvent: {}
+[19.823802] (-) TimerEvent: {}
+[19.924286] (-) TimerEvent: {}
+[20.024764] (-) TimerEvent: {}
+[20.125221] (-) TimerEvent: {}
+[20.225707] (-) TimerEvent: {}
+[20.326220] (-) TimerEvent: {}
+[20.426770] (-) TimerEvent: {}
+[20.527208] (-) TimerEvent: {}
+[20.627753] (-) TimerEvent: {}
+[20.728288] (-) TimerEvent: {}
+[20.828792] (-) TimerEvent: {}
+[20.929255] (-) TimerEvent: {}
+[21.029782] (-) TimerEvent: {}
+[21.130343] (-) TimerEvent: {}
+[21.230838] (-) TimerEvent: {}
+[21.331390] (-) TimerEvent: {}
+[21.431885] (-) TimerEvent: {}
+[21.532378] (-) TimerEvent: {}
+[21.632899] (-) TimerEvent: {}
+[21.733447] (-) TimerEvent: {}
+[21.834025] (-) TimerEvent: {}
+[21.934549] (-) TimerEvent: {}
+[22.035054] (-) TimerEvent: {}
+[22.135539] (-) TimerEvent: {}
+[22.236046] (-) TimerEvent: {}
+[22.336525] (-) TimerEvent: {}
+[22.437014] (-) TimerEvent: {}
+[22.537502] (-) TimerEvent: {}
+[22.637999] (-) TimerEvent: {}
+[22.738501] (-) TimerEvent: {}
+[22.839016] (-) TimerEvent: {}
+[22.939678] (-) TimerEvent: {}
+[23.040221] (-) TimerEvent: {}
+[23.140703] (-) TimerEvent: {}
+[23.241177] (-) TimerEvent: {}
+[23.341704] (-) TimerEvent: {}
+[23.442186] (-) TimerEvent: {}
+[23.542706] (-) TimerEvent: {}
+[23.643194] (-) TimerEvent: {}
+[23.743749] (-) TimerEvent: {}
+[23.844275] (-) TimerEvent: {}
+[23.944750] (-) TimerEvent: {}
+[24.045187] (-) TimerEvent: {}
+[24.145683] (-) TimerEvent: {}
+[24.246166] (-) TimerEvent: {}
+[24.346679] (-) TimerEvent: {}
+[24.447149] (-) TimerEvent: {}
+[24.547646] (-) TimerEvent: {}
+[24.648094] (-) TimerEvent: {}
+[24.748606] (-) TimerEvent: {}
+[24.849033] (-) TimerEvent: {}
+[24.949512] (-) TimerEvent: {}
+[25.049972] (-) TimerEvent: {}
+[25.150431] (-) TimerEvent: {}
+[25.250893] (-) TimerEvent: {}
+[25.351429] (-) TimerEvent: {}
+[25.451915] (-) TimerEvent: {}
+[25.552417] (-) TimerEvent: {}
+[25.652936] (-) TimerEvent: {}
+[25.753363] (-) TimerEvent: {}
+[25.853833] (-) TimerEvent: {}
+[25.954348] (-) TimerEvent: {}
+[26.054949] (-) TimerEvent: {}
+[26.155436] (-) TimerEvent: {}
+[26.256370] (-) TimerEvent: {}
+[26.357149] (-) TimerEvent: {}
+[26.457628] (-) TimerEvent: {}
+[26.558147] (-) TimerEvent: {}
+[26.658621] (-) TimerEvent: {}
+[26.759100] (-) TimerEvent: {}
+[26.859584] (-) TimerEvent: {}
+[26.960111] (-) TimerEvent: {}
+[27.060574] (-) TimerEvent: {}
+[27.161005] (-) TimerEvent: {}
+[27.261485] (-) TimerEvent: {}
+[27.361947] (-) TimerEvent: {}
+[27.462395] (-) TimerEvent: {}
+[27.563024] (-) TimerEvent: {}
+[27.663592] (-) TimerEvent: {}
+[27.764043] (-) TimerEvent: {}
+[27.864428] (-) TimerEvent: {}
+[27.964938] (-) TimerEvent: {}
+[28.065393] (-) TimerEvent: {}
+[28.165930] (-) TimerEvent: {}
+[28.266359] (-) TimerEvent: {}
+[28.366831] (-) TimerEvent: {}
+[28.467300] (-) TimerEvent: {}
+[28.567773] (-) TimerEvent: {}
+[28.668265] (-) TimerEvent: {}
+[28.768805] (-) TimerEvent: {}
+[28.869347] (-) TimerEvent: {}
+[28.969847] (-) TimerEvent: {}
+[29.070507] (-) TimerEvent: {}
+[29.171136] (-) TimerEvent: {}
+[29.271633] (-) TimerEvent: {}
+[29.372100] (-) TimerEvent: {}
+[29.472674] (-) TimerEvent: {}
+[29.573315] (-) TimerEvent: {}
+[29.673900] (-) TimerEvent: {}
+[29.774464] (-) TimerEvent: {}
+[29.814946] (omni_4) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[29.874689] (-) TimerEvent: {}
+[29.975355] (-) TimerEvent: {}
+[30.075851] (-) TimerEvent: {}
+[30.178241] (-) TimerEvent: {}
+[30.278780] (-) TimerEvent: {}
+[30.379246] (-) TimerEvent: {}
+[30.479803] (-) TimerEvent: {}
+[30.580265] (-) TimerEvent: {}
+[30.680759] (-) TimerEvent: {}
+[30.781228] (-) TimerEvent: {}
+[30.881751] (-) TimerEvent: {}
+[30.982312] (-) TimerEvent: {}
+[31.082750] (-) TimerEvent: {}
+[31.084454] (omni_4) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[31.101656] (omni_4) CommandEnded: {'returncode': 0}
+[31.148248] (omni_4) JobProgress: {'identifier': 'omni_4', 'progress': 'install'}
+[31.162843] (omni_4) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yumasgmt/ros2_ws/build/omni_4'], 'cwd': '/home/yumasgmt/ros2_ws/build/omni_4', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yumasgmt'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6c0ee765-81ec-4345-b6b8-e78a40b249b7.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/475_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/omni_4'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble')]), 'shell': False}
+[31.175086] (omni_4) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.177500] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/lib/omni_4/talker\n'}
+[31.182916] (-) TimerEvent: {}
+[31.185687] (omni_4) StdoutLine: {'line': b'-- Set runtime path of "/home/yumasgmt/ros2_ws/install/omni_4/lib/omni_4/talker" to ""\n'}
+[31.188299] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/ament_index/resource_index/package_run_dependencies/omni_4\n'}
+[31.188643] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/ament_index/resource_index/parent_prefix_path/omni_4\n'}
+[31.191786] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/environment/ament_prefix_path.sh\n'}
+[31.192097] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/environment/ament_prefix_path.dsv\n'}
+[31.192401] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/environment/path.sh\n'}
+[31.192619] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/environment/path.dsv\n'}
+[31.192973] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/local_setup.bash\n'}
+[31.195691] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/local_setup.sh\n'}
+[31.196415] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/local_setup.zsh\n'}
+[31.197721] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/local_setup.dsv\n'}
+[31.197864] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/package.dsv\n'}
+[31.197978] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/ament_index/resource_index/packages/omni_4\n'}
+[31.198208] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/cmake/omni_4Config.cmake\n'}
+[31.198334] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/cmake/omni_4Config-version.cmake\n'}
+[31.198439] (omni_4) StdoutLine: {'line': b'-- Installing: /home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/package.xml\n'}
+[31.203401] (omni_4) CommandEnded: {'returncode': 0}
+[31.283057] (-) TimerEvent: {}
+[31.384107] (-) TimerEvent: {}
+[31.484843] (-) TimerEvent: {}
+[31.558044] (omni_4) JobEnded: {'identifier': 'omni_4', 'rc': 0}
+[31.559808] (-) EventReactorShutdown: {}

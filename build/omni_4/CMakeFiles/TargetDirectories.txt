@@ -1,0 +1,10 @@
+/home/yumasgmt/ros2_ws/build/omni_4/CMakeFiles/uninstall.dir
+/home/yumasgmt/ros2_ws/build/omni_4/CMakeFiles/omni_4_uninstall.dir
+/home/yumasgmt/ros2_ws/build/omni_4/CMakeFiles/talker.dir
+/home/yumasgmt/ros2_ws/build/omni_4/CMakeFiles/test.dir
+/home/yumasgmt/ros2_ws/build/omni_4/CMakeFiles/edit_cache.dir
+/home/yumasgmt/ros2_ws/build/omni_4/CMakeFiles/rebuild_cache.dir
+/home/yumasgmt/ros2_ws/build/omni_4/CMakeFiles/list_install_components.dir
+/home/yumasgmt/ros2_ws/build/omni_4/CMakeFiles/install.dir
+/home/yumasgmt/ros2_ws/build/omni_4/CMakeFiles/install/local.dir
+/home/yumasgmt/ros2_ws/build/omni_4/CMakeFiles/install/strip.dir

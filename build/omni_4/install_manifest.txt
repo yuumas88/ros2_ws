@@ -1,0 +1,16 @@
+/home/yumasgmt/ros2_ws/install/omni_4/lib/omni_4/talker
+/home/yumasgmt/ros2_ws/install/omni_4/share/ament_index/resource_index/package_run_dependencies/omni_4
+/home/yumasgmt/ros2_ws/install/omni_4/share/ament_index/resource_index/parent_prefix_path/omni_4
+/home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/environment/ament_prefix_path.sh
+/home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/environment/ament_prefix_path.dsv
+/home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/environment/path.sh
+/home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/environment/path.dsv
+/home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/local_setup.bash
+/home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/local_setup.sh
+/home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/local_setup.zsh
+/home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/local_setup.dsv
+/home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/package.dsv
+/home/yumasgmt/ros2_ws/install/omni_4/share/ament_index/resource_index/packages/omni_4
+/home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/cmake/omni_4Config.cmake
+/home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/cmake/omni_4Config-version.cmake
+/home/yumasgmt/ros2_ws/install/omni_4/share/omni_4/package.xml

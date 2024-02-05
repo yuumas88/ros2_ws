@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.000394] (-) JobUnselected: {'identifier': 'can_plugins2'}
+[0.000507] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000696] (-) JobUnselected: {'identifier': 'underc_package'}
+[0.000804] (omni_4) JobQueued: {'identifier': 'omni_4', 'dependencies': OrderedDict([('can_plugins2', '/home/yumasgmt/ros2_ws/install/can_plugins2')])}
+[0.000902] (omni_4) JobStarted: {'identifier': 'omni_4'}
+[0.098119] (-) TimerEvent: {}
+[0.198640] (-) TimerEvent: {}
+[0.247984] (omni_4) JobProgress: {'identifier': 'omni_4', 'progress': 'cmake'}
+[0.249763] (omni_4) Command: {'cmd': ['/usr/bin/cmake', '/home/yumasgmt/ros2_ws/src/omni_4', '-DCMAKE_INSTALL_PREFIX=/home/yumasgmt/ros2_ws/install/omni_4'], 'cwd': '/home/yumasgmt/ros2_ws/build/omni_4', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yumasgmt'), ('GIT_ASKPASS', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yumasgmt'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6c0ee765-81ec-4345-b6b8-e78a40b249b7.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yumasgmt'), ('NAME', 'DESKTOP-CCRGV52'), ('WSL_INTEROP', '/run/WSL/475_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/yumasgmt/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Ruby30-x64/bin:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/sgmt_/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/sgmt_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sgmt_/Desktop/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.0.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-0a8e3b57b7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yumasgmt/ros2_ws/build/omni_4'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yumasgmt/ros2_ws/install/can_plugins2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/yumasgmt/ros2_ws/install/can_plugins2:/opt/ros/humble')]), 'shell': False}
+[0.298831] (-) TimerEvent: {}
+[0.399419] (-) TimerEvent: {}
+[0.499890] (-) TimerEvent: {}
+[0.601248] (-) TimerEvent: {}
+[0.702022] (-) TimerEvent: {}
+[0.802731] (-) TimerEvent: {}
+[0.874059] (omni_4) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.902914] (-) TimerEvent: {}
+[1.003415] (-) TimerEvent: {}
+[1.103960] (-) TimerEvent: {}
+[1.204446] (-) TimerEvent: {}
+[1.304934] (-) TimerEvent: {}
+[1.405513] (-) TimerEvent: {}
+[1.506425] (-) TimerEvent: {}
+[1.599615] (omni_4) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.606574] (-) TimerEvent: {}
+[1.707102] (-) TimerEvent: {}
+[1.812690] (-) TimerEvent: {}
+[1.913189] (-) TimerEvent: {}
+[2.013914] (-) TimerEvent: {}
+[2.114598] (-) TimerEvent: {}
+[2.119609] (omni_4) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.214769] (-) TimerEvent: {}
+[2.315293] (-) TimerEvent: {}
+[2.367409] (omni_4) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.383067] (omni_4) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.386783] (omni_4) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.388636] (omni_4) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.395804] (omni_4) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.415474] (-) TimerEvent: {}
+[2.515931] (-) TimerEvent: {}
+[2.616468] (-) TimerEvent: {}
+[2.629249] (omni_4) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.647118] (omni_4) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.647668] (omni_4) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.648733] (omni_4) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.670585] (omni_4) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.716622] (-) TimerEvent: {}
+[2.817151] (-) TimerEvent: {}
+[2.918324] (-) TimerEvent: {}
+[3.018999] (-) TimerEvent: {}
+[3.069831] (omni_4) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.119168] (-) TimerEvent: {}
+[3.219680] (-) TimerEvent: {}
+[3.287528] (omni_4) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.319969] (-) TimerEvent: {}
+[3.420939] (-) TimerEvent: {}
+[3.521577] (-) TimerEvent: {}
+[3.622264] (-) TimerEvent: {}
+[3.730630] (-) TimerEvent: {}
+[3.831273] (-) TimerEvent: {}
+[3.920609] (omni_4) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.931447] (-) TimerEvent: {}
+[3.938826] (omni_4) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.976950] (omni_4) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.031662] (-) TimerEvent: {}
+[4.056895] (omni_4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.128001] (omni_4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.131800] (-) TimerEvent: {}
+[4.232290] (-) TimerEvent: {}
+[4.279029] (omni_4) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.289110] (omni_4) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.332511] (-) TimerEvent: {}
+[4.432937] (-) TimerEvent: {}
+[4.533466] (-) TimerEvent: {}
+[4.634073] (-) TimerEvent: {}
+[4.734626] (-) TimerEvent: {}
+[4.835501] (-) TimerEvent: {}
+[4.936177] (-) TimerEvent: {}
+[5.036992] (-) TimerEvent: {}
+[5.138699] (-) TimerEvent: {}
+[5.239438] (-) TimerEvent: {}
+[5.340218] (-) TimerEvent: {}
+[5.440841] (-) TimerEvent: {}
+[5.541410] (-) TimerEvent: {}
+[5.642084] (-) TimerEvent: {}
+[5.742875] (-) TimerEvent: {}
+[5.843493] (-) TimerEvent: {}
+[5.944104] (-) TimerEvent: {}
+[5.983461] (omni_4) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.044283] (-) TimerEvent: {}
+[6.144851] (-) TimerEvent: {}
+[6.245408] (-) TimerEvent: {}
+[6.346007] (-) TimerEvent: {}
+[6.446536] (-) TimerEvent: {}
+[6.547060] (-) TimerEvent: {}
+[6.647648] (-) TimerEvent: {}
+[6.748160] (-) TimerEvent: {}
+[6.848722] (-) TimerEvent: {}
+[6.949240] (-) TimerEvent: {}
+[7.049778] (-) TimerEvent: {}
+[7.150374] (-) TimerEvent: {}
+[7.250863] (-) TimerEvent: {}
+[7.351284] (-) TimerEvent: {}
+[7.451810] (-) TimerEvent: {}
+[7.454788] (omni_4) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.552008] (-) TimerEvent: {}
+[7.652439] (-) TimerEvent: {}
+[7.752854] (-) TimerEvent: {}
+[7.853470] (-) TimerEvent: {}
+[7.954119] (-) TimerEvent: {}
+[8.054900] (-) TimerEvent: {}
+[8.155530] (-) TimerEvent: {}
+[8.256127] (-) TimerEvent: {}
+[8.356734] (-) TimerEvent: {}
+[8.457262] (-) TimerEvent: {}
+[8.557785] (-) TimerEvent: {}
+[8.658326] (-) TimerEvent: {}
+[8.758881] (-) TimerEvent: {}
+[8.859499] (-) TimerEvent: {}
+[8.960013] (-) TimerEvent: {}
+[9.060521] (-) TimerEvent: {}
+[9.160996] (-) TimerEvent: {}
+[9.261571] (-) TimerEvent: {}
+[9.362036] (-) TimerEvent: {}
+[9.462571] (-) TimerEvent: {}
+[9.563089] (-) TimerEvent: {}
+[9.663661] (-) TimerEvent: {}
+[9.764162] (-) TimerEvent: {}
+[9.864690] (-) TimerEvent: {}
+[9.965246] (-) TimerEvent: {}
+[10.065754] (-) TimerEvent: {}
+[10.166331] (-) TimerEvent: {}
+[10.225884] (omni_4) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.245729] (omni_4) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.266501] (-) TimerEvent: {}
+[10.366970] (-) TimerEvent: {}
+[10.413090] (omni_4) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.413741] (omni_4) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.467162] (-) TimerEvent: {}
+[10.567766] (-) TimerEvent: {}
+[10.608578] (omni_4) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.610086] (omni_4) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.667906] (-) TimerEvent: {}
+[10.770614] (-) TimerEvent: {}
+[10.871147] (-) TimerEvent: {}
+[10.971709] (-) TimerEvent: {}
+[11.072289] (-) TimerEvent: {}
+[11.116955] (omni_4) StdoutLine: {'line': b'-- Found can_plugins2: 0.0.1 (/home/yumasgmt/ros2_ws/install/can_plugins2/share/can_plugins2/cmake)\n'}
+[11.172440] (-) TimerEvent: {}
+[11.207613] (omni_4) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[11.272563] (-) TimerEvent: {}
+[11.372995] (-) TimerEvent: {}
+[11.438642] (omni_4) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.473164] (-) TimerEvent: {}
+[11.573685] (-) TimerEvent: {}
+[11.635708] (omni_4) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.636216] (omni_4) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[11.636467] (omni_4) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.638875] (omni_4) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.642148] (omni_4) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.642541] (omni_4) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.644339] (omni_4) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.649633] (omni_4) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.655861] (omni_4) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (add_executable):\n'}
+[11.656219] (omni_4) StderrLine: {'line': b'  Cannot find source file:\n'}
+[11.656477] (omni_4) StderrLine: {'line': b'\n'}
+[11.656640] (omni_4) StderrLine: {'line': b'    src/OMNI4ros2.cpp\n'}
+[11.656785] (omni_4) StderrLine: {'line': b'\n'}
+[11.656932] (omni_4) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[11.657076] (omni_4) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[11.657216] (omni_4) StderrLine: {'line': b'\n'}
+[11.657353] (omni_4) StderrLine: {'line': b'\x1b[0m\n'}
+[11.658859] (omni_4) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (add_executable):\n'}
+[11.659134] (omni_4) StderrLine: {'line': b'  No SOURCES given to target: talker\n'}
+[11.659283] (omni_4) StderrLine: {'line': b'\n'}
+[11.659498] (omni_4) StderrLine: {'line': b'\x1b[0m\n'}
+[11.659649] (omni_4) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[11.673888] (-) TimerEvent: {}
+[11.715281] (omni_4) CommandEnded: {'returncode': 1}
+[11.774166] (-) TimerEvent: {}
+[11.876281] (-) TimerEvent: {}
+[11.984551] (-) TimerEvent: {}
+[12.007015] (omni_4) JobEnded: {'identifier': 'omni_4', 'rc': 1}
+[12.018513] (-) EventReactorShutdown: {}
